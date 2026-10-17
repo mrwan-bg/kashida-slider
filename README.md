@@ -11,6 +11,8 @@
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License](https://img.shields.io/badge/License-GPL--2.0%2B-blue)](LICENSE)
 
+[![Download Plugin](https://img.shields.io/badge/⬇%20Download-Plugin%20ZIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrwan-bg/kashida-slider/releases)
+
 ## Overview
 
 Kashida Slider provides a visual editor and a slider library for building responsive sliders and carousels directly in WordPress. Configure layouts, typography, colors, navigation, and device-specific previews without adding external JavaScript libraries.
@@ -45,7 +47,7 @@ Build a presentation that adapts to different screen sizes while keeping the edi
 
 ## Installation
 
-1. Download the plugin ZIP from the [Releases](https://github.com/mrwan-bg/kashida-slider/releases) page.
+1. ⬇️ **Download the plugin:** [Get the latest ZIP release](https://github.com/mrwan-bg/kashida-slider/releases).
 2. In WordPress, go to **Plugins → Add New Plugin → Upload Plugin**.
 3. Upload the ZIP file and activate **Kashida Slider**.
 4. Open **Kashida Slider** in the admin menu and create a slider.
@@ -80,7 +82,8 @@ The feature images above illustrate the plugin’s slider modes, carousel contro
 
 - **Repository:** [mrwan-bg/kashida-slider](https://github.com/mrwan-bg/kashida-slider)
 - **Issues:** [Report a bug or request a feature](https://github.com/mrwan-bg/kashida-slider/issues)
-- **Releases:** [Download releases](https://github.com/mrwan-bg/kashida-slider/releases)
+- **⬇️ Download:** [Download the latest plugin ZIP](https://github.com/mrwan-bg/kashida-slider/releases)
+- **Releases:** [View all releases](https://github.com/mrwan-bg/kashida-slider/releases)
 
 ## License
 
