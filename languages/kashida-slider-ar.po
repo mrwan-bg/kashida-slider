@@ -1,0 +1,1478 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Kashida Slider 1.4.8 1.4.7\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-17 19:30+0000\n"
+"PO-Revision-Date: 2026-10-17 19:40+0000\n"
+"Last-Translator: Kashida Media Services <https://kashida.ly/>\n"
+"Language: ar\n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : "
+"n%100>=11 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#, python-format
+msgid "%s (copy)"
+msgstr ""
+
+msgid ""
+"A Custom slider is built slide by slide: you choose every image, heading, text and button "
+"yourself."
+msgstr "تُنشئ السلايدر المخصص شريحةً تلو الأخرى، وتختار بنفسك كل صورة وعنوان ونص وزر."
+
+msgid ""
+"A Dynamic slider has one design that is applied to your latest published posts, WooCommerce "
+"products or portfolio projects. New content appears automatically; you never rebuild slides by "
+"hand."
+msgstr ""
+"يستخدم السلايدر الديناميكي تصميمًا واحدًا لعرض أحدث المقالات المنشورة أو منتجات WooCommerce أو "
+"مشاريع معرض الأعمال. يظهر المحتوى الجديد تلقائيًا دون الحاجة إلى إنشاء الشرائح يدويًا."
+
+msgid "A dynamic slider is empty"
+msgstr "السلايدر الديناميكي فارغ"
+
+msgid "A lightweight visual slider builder for custom and dynamic content."
+msgstr "منشئ سلايدر مرئي خفيف للمحتوى المخصص والديناميكي."
+
+msgid "A short description for this slide."
+msgstr ""
+
+msgid "A slider must keep at least one slide."
+msgstr "يجب أن يحتوي السلايدر على شريحة واحدة على الأقل."
+
+msgid "A slider needs at least one slide."
+msgstr "يجب أن يحتوي السلايدر على شريحة واحدة على الأقل."
+
+msgid ""
+"Add a Raw HTML or Text Block element to the page and paste the shortcode into it. Any builder "
+"element that processes WordPress shortcodes will work. The slider fills the width of its "
+"container."
+msgstr ""
+"أضف عنصر HTML خام أو كتلة نصية إلى الصفحة وألصق الرمز المختصر بداخله. يعمل أي عنصر في منشئ "
+"الصفحات يعالج الرموز المختصرة في WordPress. ويملأ السلايدر عرض الحاوية التي يوجد داخلها."
+
+msgid "Add a Shortcode block to your page, paste the shortcode, and update the page."
+msgstr "أضف كتلة الرمز المختصر إلى الصفحة، ثم ألصق الرمز وحدّث الصفحة."
+
+msgid ""
+"Add at least two slides (or make sure the source returns two or more items) to preview a "
+"transition."
+msgstr ""
+
+msgid "Add slide"
+msgstr "إضافة شريحة"
+
+msgid "Add, duplicate, delete and reorder slides"
+msgstr "إضافة الشرائح وتكرارها وحذفها وترتيبها"
+
+msgid "All changes saved"
+msgstr "تم حفظ كل التغييرات"
+
+msgid "All modes"
+msgstr "كل الأنماط"
+
+msgid "All sliders"
+msgstr "كل السلايدرات"
+
+msgid "All sources"
+msgstr "كل المصادر"
+
+msgid "Animation"
+msgstr "الحركة"
+
+msgid "Apply"
+msgstr "تطبيق"
+
+msgid "Are Arabic and right-to-left layouts supported?"
+msgstr "هل تدعم الإضافة العربية واتجاه اليمين إلى اليسار؟"
+
+msgid "Ascending"
+msgstr "تصاعدي"
+
+msgid "Author"
+msgstr "المؤلف"
+
+#, python-format
+msgid "Auto (up to %d)"
+msgstr "تلقائي (حتى %d)"
+
+msgid "Autoplay"
+msgstr "تشغيل تلقائي"
+
+msgid "Autoplay interval (ms)"
+msgstr "الفاصل الزمني للتشغيل التلقائي (مللي ثانية)"
+
+msgid "Back to the Slider Library"
+msgstr "العودة إلى مكتبة السلايدرات"
+
+msgid "Background"
+msgstr "الخلفية"
+
+msgid "Background fill"
+msgstr ""
+
+msgid "Background image"
+msgstr "صورة الخلفية"
+
+msgid "Background images"
+msgstr "صور الخلفية"
+
+msgid "Behind text area only"
+msgstr ""
+
+msgid "Block editor"
+msgstr "محرر الكتل"
+
+msgid "Blog"
+msgstr "المدونة"
+
+msgid "Blog posts"
+msgstr "مقالات المدونة"
+
+msgid "Blog posts, WooCommerce products and portfolio-type custom post types."
+msgstr "مقالات المدونة ومنتجات WooCommerce وأنواع المحتوى المخصص الخاصة بمعرض الأعمال."
+
+msgid "Bold"
+msgstr ""
+
+msgid "Border radius (px)"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Breadcrumb"
+msgstr "مسار التنقل"
+
+msgid ""
+"Build a custom slider slide by slide, or generate slides automatically from your posts, products "
+"or portfolio."
+msgstr ""
+
+msgid "Button"
+msgstr "الزر"
+
+msgid ""
+"Button URLs must start with http://, https://, mailto: or tel:, or be a relative address such as "
+"/contact."
+msgstr ""
+"يجب أن يبدأ رابط الزر بـ http:// أو https:// أو mailto: أو tel:، أو أن يكون مسارًا نسبيًا مثل "
+"/contact."
+
+msgid "Button label (blank = default)"
+msgstr ""
+
+msgid "Button text size (px)"
+msgstr ""
+
+msgid "Buttons"
+msgstr "الأزرار"
+
+msgid "Buttons: colors, outline or solid secondary style, corner radius and text size."
+msgstr "الأزرار: الألوان ونمط الزر الثانوي (محدد الإطار أو ممتلئ) واستدارة الزوايا وحجم النص."
+
+msgid "Cache duration (minutes, 0 = off)"
+msgstr ""
+
+msgid "Can I edit or delete a slider later?"
+msgstr "هل يمكن تعديل السلايدر أو حذفه لاحقًا؟"
+
+msgid "Can I turn a Custom slider into a Dynamic one?"
+msgstr "هل يمكن تحويل سلايدر مخصص إلى ديناميكي؟"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Center"
+msgstr "توسيط"
+
+msgid "Change"
+msgstr "تغيير"
+
+msgid "Changes do not appear immediately"
+msgstr "التغييرات لا تظهر فورًا"
+
+msgid ""
+"Check that the shortcode ID matches a slider in the Slider Library. If the slider was deleted, "
+"administrators see a notice and visitors see nothing."
+msgstr ""
+"تحقق من أن معرّف الرمز المختصر يطابق سلايدر موجودًا في المكتبة. إذا حُذف السلايدر، يظهر تنبيه "
+"للمسؤول ولا يرى الزوار شيئًا."
+
+msgid "Choose \"Blog posts\" under Content source."
+msgstr "اختر «مقالات المدونة» ضمن «مصدر المحتوى»."
+
+msgid "Choose \"Portfolio projects\", then select the portfolio post type."
+msgstr "اختر «مشاريع معرض الأعمال»، ثم حدّد نوع المحتوى الخاص بالمشاريع."
+
+msgid "Choose an image"
+msgstr ""
+
+msgid "Click \"Add slide\" in the toolbar to add a slide."
+msgstr "اضغط «إضافة شريحة» في شريط الأدوات لإضافة شريحة."
+
+msgid "Click \"Create and open editor\"."
+msgstr "اضغط على «إنشاء وفتح المحرر»."
+
+msgid ""
+"Click Save before checking the site. Then clear any page-cache, CDN or browser cache. Dynamic "
+"sliders refresh automatically when content changes, but cache plugins may serve an older copy of "
+"the page."
+msgstr ""
+"اضغط «حفظ» قبل فحص الموقع، ثم امسح ذاكرة التخزين المؤقت للصفحة أو CDN أو المتصفح. تتحدث "
+"السلايدرات الديناميكية تلقائيًا عند تغيير المحتوى، لكن إضافات التخزين المؤقت قد تعرض نسخة قديمة "
+"من الصفحة."
+
+msgid "Color"
+msgstr "اللون"
+
+msgid "Colors, typography and layouts"
+msgstr "الألوان والخطوط والتخطيطات"
+
+msgid "Contain"
+msgstr "احتواء الصورة بالكامل"
+
+msgid "Content"
+msgstr "المحتوى"
+
+msgid "Content source"
+msgstr "مصدر المحتوى"
+
+msgid "Content spacing (px)"
+msgstr ""
+
+msgid "Copied!"
+msgstr "تم النسخ!"
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy Shortcode"
+msgstr "نسخ الشورت كود"
+
+msgid "Copy failed. Select the shortcode and copy it manually."
+msgstr "فشل النسخ. حدّد الشورت كود وانسخه يدوياً."
+
+msgid "Cover"
+msgstr "ملء المساحة"
+
+msgid "Create New Slider"
+msgstr "إنشاء سلايدر جديد"
+
+msgid "Create a new slider"
+msgstr "إنشاء سلايدر جديد"
+
+msgid "Create and open editor"
+msgstr "إنشاء وفتح المحرر"
+
+msgid "Create your first slider"
+msgstr "أنشئ أول سلايدر لك"
+
+msgid "Created"
+msgstr "تاريخ الإنشاء"
+
+msgid "Creation mode"
+msgstr ""
+
+msgid "Crossfade"
+msgstr "تلاشي متقاطع"
+
+msgid "Custom"
+msgstr "مخصص"
+
+msgid "Custom slider"
+msgstr "سلايدر مخصص"
+
+msgid "Custom slider guide"
+msgstr "دليل السلايدر المخصص"
+
+msgid "Custom vs. Dynamic sliders"
+msgstr "السلايدر المخصص مقابل السلايدر الديناميكي"
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Delete"
+msgstr "حذف"
+
+#, python-format
+msgid "Delete \"%s\" permanently? This cannot be undone."
+msgstr "حذف \"%s\" نهائياً؟ لا يمكن التراجع عن هذا الإجراء."
+
+msgid "Delete slide"
+msgstr "حذف الشريحة"
+
+msgid "Delete slider?"
+msgstr "حذف السلايدر؟"
+
+msgid "Delete this slide?"
+msgstr "حذف هذه الشريحة؟"
+
+msgid "Descending"
+msgstr "تنازلي"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "Description color"
+msgstr ""
+
+msgid "Description size (px)"
+msgstr ""
+
+msgid "Description weight"
+msgstr ""
+
+msgid "Design each slide manually: images, text, buttons and layouts."
+msgstr "صمّم كل شريحة يدوياً: الصور والنصوص والأزرار والتخطيطات."
+
+msgid "Desktop"
+msgstr "الحاسوب"
+
+msgid "Desktop, tablet and mobile settings"
+msgstr "إعدادات الكمبيوتر والجهاز اللوحي والهاتف"
+
+msgid "Developer"
+msgstr "المطوّر"
+
+msgid "Direction"
+msgstr "الاتجاه"
+
+msgid "Does duplicating share settings with the original?"
+msgstr "هل تشارك النسخة المكررة الإعدادات مع الأصل؟"
+
+msgid "Down"
+msgstr "أسفل"
+
+msgid "Duplicate"
+msgstr "تكرار"
+
+msgid "Duplicate slide"
+msgstr "تكرار الشريحة"
+
+msgid "Dynamic"
+msgstr "ديناميكي"
+
+msgid "Dynamic content slider"
+msgstr "سلايدر بمحتوى ديناميكي"
+
+msgid "Dynamic content sliders"
+msgstr "السلايدرات ذات المحتوى الديناميكي"
+
+msgid "Dynamic sliders show nothing (to visitors) when no published content matches their filters."
+msgstr "لا تعرض السلايدرات الديناميكية أي محتوى للزوار عندما لا يطابق المحتوى المنشور المرشحات المحددة."
+
+msgid ""
+"Dynamic slides use these design settings for every item. Text and images come from your content "
+"automatically."
+msgstr ""
+
+msgid ""
+"Each thumbnail below the preview has buttons to move it earlier or later, duplicate it, or delete"
+" it. You can also drag thumbnails to reorder them."
+msgstr ""
+"تحتوي كل صورة مصغرة أسفل المعاينة على أزرار لنقل الشريحة إلى الأمام أو الخلف أو تكرارها أو حذفها."
+" ويمكنك أيضًا سحب الصور المصغرة لتغيير ترتيبها."
+
+msgid ""
+"Each time the slider is displayed it fetches published content that matches its saved filters. "
+"Drafts, private and password-protected items are never shown. Results are cached for a short time"
+" (set in Source → Cache duration) and the cache is cleared automatically when content is "
+"published, updated or deleted."
+msgstr ""
+"في كل مرة يظهر فيها السلايدر، يجلب المحتوى المنشور الذي يطابق عوامل التصفية المحفوظة. لا تُعرض "
+"المسودات أو المحتويات الخاصة أو المحمية بكلمة مرور. تُخزَّن النتائج مؤقتًا لفترة قصيرة (تُحدد من "
+"المصدر ← مدة التخزين المؤقت)، وتُمسح الذاكرة المؤقتة تلقائيًا عند نشر المحتوى أو تحديثه أو حذفه."
+
+msgid "Edit"
+msgstr "تعديل"
+
+#, python-format
+msgid "Edit %s"
+msgstr ""
+
+msgid "Edit Slider"
+msgstr "تعديل السلايدر"
+
+msgid "Edit a page or post and add a Shortcode block."
+msgstr "حرّر صفحة أو مقالة وأضف كتلة الرمز المختصر."
+
+msgid "Enable WP_DEBUG and open your browser console to look for errors from other scripts."
+msgstr "فعّل WP_DEBUG وافتح وحدة تحكم المتصفح للبحث عن أخطاء من السكربتات الأخرى."
+
+msgid "End"
+msgstr ""
+
+msgid ""
+"Every slider has its own shortcode, shown on its card in the Slider Library and in the editor "
+"toolbar. Click the shortcode button to copy it."
+msgstr ""
+"لكل سلايدر رمز مختصر خاص يظهر في بطاقته داخل المكتبة وفي شريط أدوات المحرر. اضغط زر الرمز المختصر"
+" لنسخه."
+
+msgid "Excerpt"
+msgstr "المقتطف"
+
+msgid "Excerpt length (words)"
+msgstr ""
+
+msgid "Extra bold"
+msgstr ""
+
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+msgid "Fade"
+msgstr "تلاشي"
+
+msgid "Fallback image (used when an item has no featured image)"
+msgstr ""
+
+msgid "Fields to show"
+msgstr ""
+
+msgid "Filter by terms"
+msgstr ""
+
+msgid "Find and copy your shortcode"
+msgstr "العثور على الرمز المختصر ونسخه"
+
+msgid "Focal point X (%)"
+msgstr ""
+
+msgid "Focal point Y (%)"
+msgstr ""
+
+msgid "Full background"
+msgstr "الخلفية بالكامل"
+
+msgid "Getting started"
+msgstr "البدء"
+
+#, python-format
+msgid "Go to slide %d"
+msgstr "انتقل إلى الشريحة %d"
+
+msgid "Gradient"
+msgstr ""
+
+msgid "Gradient angle"
+msgstr ""
+
+msgid "Gradient end color"
+msgstr ""
+
+msgid "Heading"
+msgstr "العنوان الرئيسي"
+
+msgid "Heading color"
+msgstr ""
+
+msgid "Heading size (px)"
+msgstr ""
+
+msgid "Heading weight"
+msgstr ""
+
+msgid "Headings, descriptions and buttons"
+msgstr "العناوين والأوصاف والأزرار"
+
+msgid "Help"
+msgstr "المساعدة"
+
+msgid "Help Center"
+msgstr "مركز المساعدة"
+
+msgid "Help sections"
+msgstr "أقسام المساعدة"
+
+msgid "Hero Overlay"
+msgstr "تراكب الصورة مع النص"
+
+msgid "How dynamic sliders work"
+msgstr "كيفية عمل السلايدر الديناميكي"
+
+msgid "ID"
+msgstr "المعرّف"
+
+msgid "If no suitable post type exists, the editor says so and you can choose another source."
+msgstr "إذا لم يتوفر نوع محتوى مناسب، فسيعرض المحرر تنبيهًا ويمكنك اختيار مصدر آخر."
+
+msgid ""
+"If the shortcode appears as plain text, it was probably pasted into a field that does not process"
+" shortcodes. Use a Shortcode block or a builder element that supports them. Keep the straight "
+"quotes exactly as copied."
+msgstr ""
+"إذا ظهر الرمز المختصر كنص عادي، فمن المحتمل لصقه في حقل لا يعالج الرموز المختصرة. استخدم كتلة "
+"الرمز المختصر أو عنصرًا يدعمها، وحافظ على علامات الاقتباس المستقيمة كما نُسخت."
+
+msgid "If the slider works, the conflict comes from the theme or plugin you disabled; note its name."
+msgstr "إذا عمل السلايدر، فالتعارض ناتج عن القالب أو الإضافة التي عطّلتها؛ سجّل اسمها."
+
+msgid "Image"
+msgstr "الصورة"
+
+msgid "Image at bottom"
+msgstr ""
+
+msgid "Image on top"
+msgstr ""
+
+msgid "Image side (Split)"
+msgstr ""
+
+msgid "Image sizing"
+msgstr ""
+
+msgid "Images do not display"
+msgstr "الصور لا تظهر"
+
+msgid ""
+"In the Animation tab choose a transition: Fade, Crossfade, Slide, Zoom In, Zoom Out, Push or Wipe"
+" / Reveal. Slide, Push and Wipe also have a direction. Set the duration in milliseconds and click"
+" Preview Animation to see the effect without saving."
+msgstr ""
+"في تبويب «الحركة»، اختر تأثير الانتقال: تلاشي أو تلاشي متداخل أو انزلاق أو تكبير أو تصغير أو دفع "
+"أو كشف. يمكن تحديد اتجاه الانزلاق والدفع والكشف. حدّد المدة بالمللي ثانية واضغط «معاينة الحركة» "
+"لمشاهدة التأثير دون حفظ."
+
+msgid "Infinite loop"
+msgstr "تكرار لا نهائي"
+
+msgid "Insert a slider into a page"
+msgstr "إدراج سلايدر في صفحة"
+
+msgid "Installed version"
+msgstr "الإصدار المثبت"
+
+msgid "Invalid data received."
+msgstr ""
+
+msgid "Is the slider responsive?"
+msgstr "هل السلايدر متجاوب؟"
+
+msgid ""
+"Its taxonomies and terms (for example project categories) appear as checkboxes; tick the ones to "
+"include."
+msgstr ""
+"تظهر التصنيفات الهرمية ومصطلحاتها (مثل تصنيفات المشاريع) في شكل مربعات اختيار؛ حدّد العناصر التي "
+"تريد تضمينها."
+
+msgid "JavaScript is required to use the slider editor."
+msgstr "يتطلب محرر السلايدر تفعيل جافاسكربت."
+
+msgid "Kashida Media Services"
+msgstr "خدمات كشيدة الإعلامية"
+
+msgid "Kashida Slider"
+msgstr "كشيدة سلايدر"
+
+msgid ""
+"Kashida Slider is a lightweight visual builder for hero banners and content carousels. You design"
+" in a live preview and show the result anywhere on your site with a shortcode."
+msgstr ""
+"Kashida Slider أداة مرئية خفيفة لإنشاء اللافتات الرئيسية ودوّارات المحتوى. صمّم باستخدام المعاينة"
+" المباشرة، ثم اعرض النتيجة في أي مكان بموقعك باستخدام الرمز المختصر."
+
+msgid "Kashida Slider navigation"
+msgstr "التنقل في كشيدة سلايدر"
+
+msgid "Kashida Slider requires PHP 7.4+ and WordPress 6.0+."
+msgstr "تتطلب كشيدة سلايدر PHP 7.4 فأعلى وووردبريس 6.0 فأعلى."
+
+msgid "Kashida Slider: no published content matches this slider's source settings."
+msgstr ""
+
+msgid "Kashida Slider: this slider does not exist or was deleted."
+msgstr "كشيدة سلايدر: هذا السلايدر غير موجود أو تم حذفه."
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "Layout also controls text alignment, vertical position, maximum text width and content spacing."
+msgstr "يتحكم التخطيط أيضًا في محاذاة النص وموضعه الرأسي وأقصى عرض له والمسافة بين عناصر المحتوى."
+
+msgid "Layout preset"
+msgstr ""
+
+msgid ""
+"Layout: Hero Overlay (text over a full image), Split (text on one side, image on the other) or "
+"Minimal (typography only). Switching layouts never deletes your content."
+msgstr ""
+"التخطيط: تراكب رئيسي (النص فوق الصورة)، أو مقسوم (النص في جانب والصورة في الآخر)، أو بسيط (يعتمد "
+"على النص). لا يؤدي تغيير التخطيط إلى حذف المحتوى."
+
+msgid "Learn more"
+msgstr "اعرف المزيد"
+
+msgid "Left"
+msgstr "يسار"
+
+msgid "License"
+msgstr "الترخيص"
+
+msgid "Loading editor…"
+msgstr "جارٍ تحميل المحرر…"
+
+msgid ""
+"Make sure the shortcode is in a block or element that processes shortcodes, and that the page was"
+" updated and any cache plugin was cleared."
+msgstr ""
+"تأكد من وضع الرمز المختصر في كتلة أو عنصر يعالج الرموز المختصرة، ومن تحديث الصفحة ومسح ذاكرة "
+"التخزين المؤقت إن وجدت."
+
+msgid "Maximum number of slides reached."
+msgstr ""
+
+msgid "Maximum text width (px)"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Menu order"
+msgstr ""
+
+msgid "Middle"
+msgstr ""
+
+msgid "Minimal"
+msgstr "بسيط"
+
+msgid "Mobile"
+msgstr "الجوال"
+
+msgid "Mobile background image (optional)"
+msgstr ""
+
+msgid "Mobile: alignment"
+msgstr ""
+
+msgid "Mobile: button text size (px)"
+msgstr ""
+
+msgid "Mobile: content spacing (px)"
+msgstr ""
+
+msgid "Mobile: description size (px)"
+msgstr ""
+
+msgid "Mobile: heading size (px)"
+msgstr ""
+
+msgid "Modified"
+msgstr "تاريخ التعديل"
+
+msgid "Move earlier"
+msgstr "نقل للأمام"
+
+msgid "Move later"
+msgstr "نقل للخلف"
+
+msgid "Name A–Z"
+msgstr "الاسم أ–ي"
+
+msgid "Name Z–A"
+msgstr "الاسم ي–أ"
+
+msgid "Newest modified"
+msgstr "الأحدث تعديلاً"
+
+msgid "Next slide"
+msgstr "الشريحة التالية"
+
+msgid "No categories or tags available for this source."
+msgstr ""
+
+msgid ""
+"No portfolio-type content was found. Your theme or plugin must register a public custom post type"
+" (for example \"portfolio\"). Please choose another source."
+msgstr ""
+
+msgid "No sliders match your search"
+msgstr "لا توجد سلايدرات مطابقة لبحثك"
+
+msgid "No. A duplicate is an independent copy with its own ID and shortcode."
+msgstr "لا. النسخة المكررة مستقلة ولها معرّف ورمز مختصر خاصان بها."
+
+msgid ""
+"No. The mode is fixed when the slider is created. Create a new slider in the other mode; you can "
+"keep the original."
+msgstr "لا. يُحدد النمط عند إنشاء السلايدر. أنشئ سلايدر جديدًا بالنمط الآخر ويمكنك الاحتفاظ بالأصلي."
+
+msgid "None"
+msgstr ""
+
+msgid "Number of items"
+msgstr "عدد العناصر"
+
+msgid "Oldest modified"
+msgstr "الأقدم تعديلاً"
+
+msgid ""
+"On right-to-left sites horizontal directions are mirrored automatically, and the arrow keys and "
+"swipe gestures follow the reading direction."
+msgstr ""
+"في المواقع ذات اتجاه الكتابة من اليمين إلى اليسار، تنعكس الاتجاهات الأفقية تلقائيًا، وتتبع مفاتيح"
+" الأسهم وإيماءات السحب اتجاه القراءة."
+
+msgid "Open Kashida Slider → Create New Slider."
+msgstr "افتح كشيدة سلايدر ← إنشاء سلايدر جديد."
+
+msgid "Open primary button in a new tab"
+msgstr ""
+
+msgid "Open secondary button in a new tab"
+msgstr ""
+
+msgid ""
+"Open the Content tab to edit the heading and description, and to set the label and destination "
+"URL of the primary button and an optional secondary button. You can also click any text or button"
+" inside the preview to jump to its setting."
+msgstr ""
+"افتح تبويب «المحتوى» لتعديل العنوان والوصف وتحديد نص الزر الأساسي ورابطه، مع إمكانية إضافة زر "
+"ثانوي. ويمكنك النقر على أي نص أو زر في المعاينة للانتقال إلى إعداده."
+
+msgid "Open the Slider Library and click the shortcode button on your slider card to copy the shortcode."
+msgstr "افتح مكتبة السلايدرات واضغط زر الرمز المختصر في بطاقة السلايدر لنسخه."
+
+msgid "Order"
+msgstr "الاتجاه"
+
+msgid "Original size"
+msgstr "الحجم الأصلي"
+
+msgid "Outline"
+msgstr ""
+
+msgid "Overlay color"
+msgstr ""
+
+msgid "Overlay opacity (%)"
+msgstr ""
+
+msgid "Paste the shortcode and update the page."
+msgstr "ألصق الرمز المختصر ثم حدّث الصفحة."
+
+msgid "Pause autoplay"
+msgstr "إيقاف التشغيل التلقائي"
+
+msgid "Pause on hover"
+msgstr "إيقاف مؤقت عند المرور"
+
+msgid "Pick product categories and tags to filter the products."
+msgstr "اختر تصنيفات المنتجات ووسومها لتصفيتها."
+
+msgid "Playing…"
+msgstr "جارٍ التشغيل…"
+
+msgid ""
+"Plays the selected effect on the preview. Nothing is saved and the slider returns to its starting"
+" slide."
+msgstr ""
+
+msgid "Plugin information"
+msgstr "معلومات الإضافة"
+
+msgid "Plugin name"
+msgstr "اسم الإضافة"
+
+msgid "Plugin or theme conflicts"
+msgstr "تعارضات الإضافات أو القالب"
+
+msgid "Portfolio"
+msgstr "معرض الأعمال"
+
+msgid "Portfolio categories are missing"
+msgstr "تصنيفات معرض الأعمال غير موجودة"
+
+msgid "Portfolio post type"
+msgstr ""
+
+msgid "Portfolio projects"
+msgstr "مشاريع معرض الأعمال"
+
+msgid ""
+"Portfolios are not part of WordPress itself: each theme or plugin registers its own content type "
+"and taxonomies. Kashida Slider therefore lists every public custom post type on your site (except"
+" posts, pages and products) so you can choose the one that holds your projects."
+msgstr ""
+"معارض الأعمال ليست جزءًا افتراضيًا من WordPress؛ إذ يضيف كل قالب أو إضافة نوع المحتوى والتصنيفات "
+"الخاصة به. لذلك يعرض Kashida Slider جميع أنواع المحتوى المخصصة العامة في موقعك، باستثناء المقالات"
+" والصفحات والمنتجات، لتختار النوع الذي يحتوي على مشاريعك."
+
+msgid "Posts without a featured image use the fallback image if you set one."
+msgstr "تستخدم المقالات التي لا تحتوي على صورة بارزة الصورة البديلة إذا حددتها."
+
+msgid "Preview"
+msgstr "معاينة"
+
+msgid "Preview Animation"
+msgstr "معاينة الحركة"
+
+msgid "Preview could not be loaded."
+msgstr ""
+
+msgid "Previous slide"
+msgstr "الشريحة السابقة"
+
+msgid "Price"
+msgstr "السعر"
+
+msgid "Price (with sale price)"
+msgstr ""
+
+msgid "Primary background"
+msgstr ""
+
+msgid "Primary button URL"
+msgstr ""
+
+msgid "Primary button label"
+msgstr ""
+
+msgid "Primary text color"
+msgstr ""
+
+msgid ""
+"Problems that go away when you change a setting or content are configuration issues. A PHP error "
+"or a JavaScript error that mentions kashida-slider is a likely plugin defect: report it with the "
+"error text and your WordPress and PHP versions."
+msgstr ""
+"المشكلات التي تختفي عند تغيير إعداد أو محتوى غالبًا ما تكون مشكلات ضبط. أما أخطاء PHP أو "
+"JavaScript التي تذكر kashida-slider فقد تشير إلى خلل في الإضافة؛ أرسل نص الخطأ مع إصداري "
+"WordPress وPHP."
+
+msgid "Products can also be sorted by price. Products hidden from the catalog are skipped."
+msgstr "يمكن أيضًا ترتيب المنتجات حسب السعر. ويتم تجاهل المنتجات المخفية من الكتالوج."
+
+msgid ""
+"Products require an active WooCommerce. Portfolios require a theme or plugin that registers a "
+"public portfolio-type content type."
+msgstr ""
+"تتطلب المنتجات تفعيل WooCommerce. ويتطلب معرض الأعمال قالبًا أو إضافة تسجّل نوع محتوى عامًا خاصًا"
+" بالمشاريع."
+
+msgid "Publication date"
+msgstr ""
+
+msgid "Push"
+msgstr "دفع"
+
+msgid ""
+"Re-select the image in the Background tab. If the image was deleted from the media library, or "
+"the site address changed (for example from http to https) after the slider was saved, the stored "
+"address no longer works. Also check that the slide height is large enough to show the image."
+msgstr ""
+"أعد اختيار الصورة من تبويب «الخلفية». إذا حُذفت الصورة من مكتبة الوسائط أو تغيّر عنوان الموقع "
+"(مثل الانتقال من http إلى https) بعد حفظ السلايدر، فقد يصبح العنوان المحفوظ غير صالح. تحقق أيضًا "
+"من أن ارتفاع الشريحة كافٍ لعرض الصورة."
+
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+msgid "Read the Help Center"
+msgstr "اقرأ مركز المساعدة"
+
+msgid "Regular"
+msgstr ""
+
+msgid "Remove"
+msgstr "إزالة"
+
+msgid ""
+"Remove category or tag filters to see whether any content is returned. Confirm that the content "
+"is published (not draft or private) and, for products, visible in the catalog. Several filters "
+"narrow the result: items must match every selected taxonomy."
+msgstr ""
+"أزل مرشحات التصنيفات أو الوسوم للتحقق من ظهور المحتوى. تأكد من أن المحتوى منشور وليس مسودة أو "
+"خاصًا، وأن المنتجات ظاهرة في الكتالوج. تؤدي إضافة عدة مرشحات إلى تضييق النتائج، إذ يجب أن يطابق "
+"العنصر كل التصنيفات المحددة."
+
+msgid "Replace 123 with your slider's ID. The id attribute is the only attribute the shortcode supports."
+msgstr "استبدل 123 بمعرّف السلايدر. الخاصية id هي الخاصية الوحيدة التي يدعمها الرمز المختصر."
+
+msgid "Reset"
+msgstr "إعادة ضبط"
+
+msgid "Responsive"
+msgstr "التجاوب"
+
+msgid "Responsive layout problems"
+msgstr "مشكلات التخطيط المتجاوب"
+
+msgid "Results refresh automatically when content changes."
+msgstr ""
+
+msgid "Right"
+msgstr "يمين"
+
+msgid "Same as larger screen"
+msgstr ""
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Save and preview"
+msgstr "الحفظ والمعاينة"
+
+msgid "Save failed"
+msgstr "فشل الحفظ"
+
+msgid "Saving…"
+msgstr "جارٍ الحفظ…"
+
+msgid "Search by name…"
+msgstr "ابحث بالاسم…"
+
+msgid "Search sliders by name"
+msgstr ""
+
+msgid "Secondary border / background"
+msgstr ""
+
+msgid "Secondary button URL"
+msgstr ""
+
+msgid "Secondary button label (optional)"
+msgstr ""
+
+msgid "Secondary style"
+msgstr ""
+
+msgid "Secondary text color"
+msgstr ""
+
+msgid "Select image"
+msgstr "اختيار صورة"
+
+msgid ""
+"Select the correct portfolio post type first; the list of taxonomies depends on it. Only "
+"taxonomies that have at least one term are listed, and the theme or plugin that provides the "
+"portfolio must be active."
+msgstr ""
+"حدّد نوع محتوى معرض الأعمال الصحيح أولًا؛ فقائمة التصنيفات تعتمد عليه. لا تظهر إلا التصنيفات التي"
+" تحتوي على عنصر واحد على الأقل، ويجب أن يكون القالب أو الإضافة التي توفر معرض الأعمال مفعّلة."
+
+msgid ""
+"Select the slide, open the Background tab and click \"Select image\" to pick a file from the "
+"media library. Use the focal point sliders to choose which part of the image stays visible when "
+"it is cropped, and set sizing to Cover, Contain or Original size."
+msgstr ""
+"حدّد الشريحة، ثم افتح تبويب «الخلفية» واضغط «اختيار صورة» لتحديد ملف من مكتبة الوسائط. استخدم "
+"عناصر التحكم بنقطة التركيز لتحديد الجزء الذي سيظل ظاهرًا عند قص الصورة، واختر طريقة العرض: تغطية "
+"أو احتواء أو الحجم الأصلي."
+
+msgid "Semi-bold"
+msgstr ""
+
+msgid "Set the number of posts (1–20), then sort by date, title or menu order, ascending or descending."
+msgstr ""
+"حدّد عدد المقالات (من 1 إلى 20)، ثم رتّبها حسب التاريخ أو العنوان أو ترتيب القائمة تصاعديًا أو "
+"تنازليًا."
+
+msgid "Set the number of projects, sorting and which fields to show (image, title, excerpt, button)."
+msgstr "حدّد عدد المشاريع وطريقة ترتيبها والحقول التي تريد عرضها (الصورة والعنوان والمقتطف والزر)."
+
+msgid "Shortcode"
+msgstr "الشورت كود"
+
+msgid "Shortcode copied"
+msgstr "تم نسخ الشورت كود"
+
+msgid "Shortcode placement problems"
+msgstr "مشكلات وضع الرمز المختصر"
+
+msgid "Show navigation arrows"
+msgstr "إظهار أسهم التنقل"
+
+msgid ""
+"Show or hide the image, title, excerpt, publication date and button. You can change the button "
+"label and the excerpt length."
+msgstr ""
+"يمكنك إظهار الصورة والعنوان والمقتطف وتاريخ النشر والزر أو إخفاؤها. كما يمكنك تغيير نص الزر وطول "
+"المقتطف."
+
+msgid "Show pagination dots"
+msgstr "إظهار نقاط الترقيم"
+
+msgid ""
+"Show the product image, name, price (sale prices are shown with the regular price) and button. "
+"The button links to the product page."
+msgstr ""
+"اعرض صورة المنتج واسمه وسعره (يظهر سعر التخفيض بجوار السعر الأصلي) والزر. يوجّه الزر إلى صفحة "
+"المنتج."
+
+msgid "Showing %1$d of %2$d"
+msgstr "عرض %1$d من %2$d"
+
+msgid "Slide"
+msgstr "انزلاق"
+
+msgid "Slide %1$d of %2$d"
+msgstr "شريحة %1$d من %2$d"
+
+msgid "Slider"
+msgstr "السلايدر"
+
+msgid "Slider Library"
+msgstr "مكتبة السلايدرات"
+
+msgid "Slider created."
+msgstr "تم إنشاء السلايدر."
+
+msgid "Slider deleted."
+msgstr "تم حذف السلايدر."
+
+msgid "Slider duplicated."
+msgstr "تم تكرار السلايدر."
+
+msgid "Slider height: desktop (px)"
+msgstr ""
+
+msgid "Slider height: mobile (px)"
+msgstr ""
+
+msgid "Slider height: tablet (px)"
+msgstr ""
+
+msgid "Slider name"
+msgstr "اسم السلايدر"
+
+msgid "Slider not found."
+msgstr ""
+
+msgid "Slider type"
+msgstr "نوع السلايدر"
+
+msgid "Sliders"
+msgstr ""
+
+msgid "Slides"
+msgstr "الشرائح"
+
+msgid "Slides are generated automatically from blog posts, WooCommerce products or portfolio projects."
+msgstr "تُنشأ الشرائح تلقائياً من مقالات المدونة أو منتجات ووكومرس أو مشاريع معرض الأعمال."
+
+msgid "Solid"
+msgstr ""
+
+msgid "Solid color"
+msgstr ""
+
+msgid "Something went wrong. Please try again."
+msgstr "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+
+msgid "Sort by"
+msgstr "ترتيب حسب"
+
+msgid "Source"
+msgstr "المصدر"
+
+msgid "Split Layout"
+msgstr ""
+
+msgid "Split layout on small screens"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Start autoplay"
+msgstr "بدء التشغيل التلقائي"
+
+msgid "Tablet"
+msgstr "الجهاز اللوحي"
+
+msgid "Tablet: alignment"
+msgstr ""
+
+msgid "Tablet: button text size (px)"
+msgstr ""
+
+msgid "Tablet: content spacing (px)"
+msgstr ""
+
+msgid "Tablet: description size (px)"
+msgstr ""
+
+msgid "Tablet: heading size (px)"
+msgstr ""
+
+msgid ""
+"Temporarily switch to a default theme such as Twenty Twenty-Four, or deactivate other plugins one"
+" at a time."
+msgstr "بدّل مؤقتًا إلى قالب افتراضي مثل Twenty Twenty-Four، أو عطّل الإضافات الأخرى واحدة تلو الأخرى."
+
+msgid "Text alignment"
+msgstr ""
+
+msgid "Text overlay"
+msgstr "تراكب خلف النص"
+
+msgid "That slider no longer exists."
+msgstr "هذا السلايدر لم يعد موجوداً."
+
+msgid ""
+"The Preview button in the toolbar opens the saved slider on its own page. Save first so that page"
+" shows your latest changes."
+msgstr ""
+"يفتح زر «معاينة» في شريط الأدوات السلايدر المحفوظ في صفحة مستقلة. احفظ أولًا لضمان عرض أحدث "
+"التغييرات."
+
+msgid ""
+"The Responsive tab sets the slider height for each device, plus heading, description, button and "
+"spacing sizes for tablet and mobile. You can also set a different alignment and an optional "
+"mobile background image. Use the device buttons above the preview to check the result."
+msgstr ""
+"يتيح تبويب «التجاوب» ضبط ارتفاع السلايدر لكل جهاز، وأحجام العنوان والوصف ونص الزر والمسافات "
+"للجهاز اللوحي والهاتف. ويمكنك تحديد محاذاة مختلفة وصورة خلفية اختيارية للهاتف. استخدم أزرار "
+"الأجهزة أعلى المعاينة لمراجعة النتيجة."
+
+msgid "The mode is chosen when the slider is created and cannot be changed afterwards."
+msgstr "يُحدَّد نمط السلايدر عند إنشائه ولا يمكن تغييره لاحقًا."
+
+msgid ""
+"The preview in the editor updates as you change settings. Use the Desktop, Tablet and Mobile "
+"buttons to check each screen size. Click Save (or press Ctrl/Cmd+S) to store your work; the "
+"status next to the button shows whether you have unsaved changes."
+msgstr ""
+"تتحدّث المعاينة داخل المحرر عند تغيير الإعدادات. استخدم أزرار الكمبيوتر والجهاز اللوحي والهاتف "
+"لمراجعة كل حجم شاشة. اضغط «حفظ» أو Ctrl/Cmd+S لحفظ العمل؛ وتوضح الحالة بجوار الزر ما إذا كانت "
+"هناك تغييرات غير محفوظة."
+
+msgid ""
+"The product source needs WooCommerce to be installed and active. Activate it and reload the "
+"editor."
+msgstr "يتطلب مصدر المنتجات تثبيت WooCommerce وتفعيله. فعّله ثم أعد تحميل المحرر."
+
+msgid "The slider does not appear"
+msgstr "السلايدر لا يظهر"
+
+msgid "This slider does not exist or was deleted."
+msgstr "هذا السلايدر غير موجود أو تم حذفه."
+
+msgid ""
+"Tick one or more categories (and tags) to limit the posts. Leave everything unticked to use all "
+"posts."
+msgstr ""
+"حدّد تصنيفًا واحدًا أو أكثر (ووسومًا) لتصفية المقالات. اترك الخيارات دون تحديد لاستخدام جميع "
+"المقالات."
+
+msgid "Tip: click text or buttons in the preview to edit them."
+msgstr ""
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Top"
+msgstr ""
+
+msgid "Transition"
+msgstr "الانتقال"
+
+msgid "Transition duration (ms)"
+msgstr "مدة الانتقال (مللي ثانية)"
+
+msgid "Transitions, autoplay and navigation"
+msgstr "الانتقالات والتشغيل التلقائي والتنقل"
+
+msgid "Troubleshooting"
+msgstr "استكشاف الأخطاء وإصلاحها"
+
+msgid "Try a different name or clear the filters."
+msgstr "جرّب اسماً آخر أو أزل عوامل التصفية."
+
+msgid "Type a name and choose Custom or Dynamic."
+msgstr ""
+
+msgid "Typography"
+msgstr "الخطوط"
+
+msgid "Typography: heading and description color, weight and size."
+msgstr "الخطوط: لون العنوان والوصف وسماكتهما وحجمهما."
+
+msgid "Unsaved changes"
+msgstr "تغييرات غير محفوظة"
+
+msgid "Untitled slider"
+msgstr ""
+
+msgid "Up"
+msgstr "أعلى"
+
+msgid "Updating preview…"
+msgstr ""
+
+msgid ""
+"Use the Tablet and Mobile preview and the Responsive tab: raise the mobile height if text is cut "
+"off, reduce the font sizes, or reduce the content spacing. The Split layout stacks the image and "
+"text on screens narrower than 900 px."
+msgstr ""
+"استخدم معاينتي الجهاز اللوحي والهاتف وتبويب «التجاوب». زد ارتفاع الهاتف إذا قُص النص، أو قلل "
+"أحجام الخطوط والمسافات. يعرض تخطيط «مقسوم» الصورة والنص أحدهما فوق الآخر على الشاشات الأضيق من "
+"900 بكسل."
+
+msgid "Use this image"
+msgstr ""
+
+msgid "Using shortcodes"
+msgstr "استخدام الرموز المختصرة"
+
+msgid "Vertical position"
+msgstr ""
+
+msgid "View product"
+msgstr "عرض المنتج"
+
+msgid "View project"
+msgstr "عرض المشروع"
+
+msgid "WPBakery and other page builders"
+msgstr "WPBakery ومنشئو الصفحات الآخرون"
+
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+msgid "What Kashida Slider does"
+msgstr "ما الذي تقدمه إضافة Kashida Slider؟"
+
+msgid "What do products and portfolios require?"
+msgstr "ما متطلبات المنتجات ومعارض الأعمال؟"
+
+msgid "Which content sources are supported?"
+msgstr "ما مصادر المحتوى المدعومة؟"
+
+msgid "Wipe / Reveal"
+msgstr "مسح / كشف"
+
+msgid ""
+"Without an image you can use a solid color or a two-color gradient. The Text overlay setting "
+"darkens only the area behind the text by default; choose \"Full background\" to cover the whole "
+"image."
+msgstr ""
+"يمكنك استخدام لون ثابت أو تدرج لوني من لونين دون صورة. يؤثر خيار تراكب النص افتراضيًا في المنطقة "
+"خلف النص فقط؛ اختر «الخلفية بالكامل» لتغطية الصورة كلها."
+
+msgid "WooCommerce"
+msgstr "ووكومرس"
+
+msgid "WooCommerce is not active on this site. Activate it to use products."
+msgstr ""
+
+msgid ""
+"WooCommerce must be installed and active; otherwise the product source shows a notice and no "
+"products are displayed."
+msgstr "يجب تثبيت WooCommerce وتفعيله؛ وإلا فسيظهر تنبيه في مصدر المنتجات ولن تُعرض أي منتجات."
+
+msgid "WooCommerce options are missing"
+msgstr "خيارات WooCommerce غير موجودة"
+
+msgid "WooCommerce products"
+msgstr "منتجات WooCommerce"
+
+msgid ""
+"Yes. Height, text sizes, spacing and alignment can be set separately for desktop, tablet and "
+"mobile, and the slider never overflows its container."
+msgstr ""
+"نعم. يمكن ضبط الارتفاع وأحجام النصوص والمسافات والمحاذاة بشكل منفصل للكمبيوتر والجهاز اللوحي "
+"والهاتف، ولا يتجاوز السلايدر عرض الحاوية."
+
+msgid ""
+"Yes. The interface and the slider follow the site language direction. The plugin is translation-"
+"ready; it only appears in a given language if a translation file for that language is installed."
+msgstr ""
+"نعم. تتبع الواجهة والسلايدر اتجاه لغة الموقع. الإضافة جاهزة للترجمة، وتظهر بلغة معينة عند توفر "
+"ملف ترجمة لتلك اللغة."
+
+msgid ""
+"Yes. Use the Slider Library to edit, duplicate or delete any slider. Deleting asks for "
+"confirmation and cannot be undone. A page that still contains the shortcode of a deleted slider "
+"shows nothing to visitors."
+msgstr ""
+"نعم. استخدم مكتبة السلايدرات لتعديل أي سلايدر أو نسخه أو حذفه. يتطلب الحذف تأكيدًا ولا يمكن "
+"التراجع عنه. ولن تعرض الصفحة التي تحتوي على رمز سلايدر محذوف أي محتوى للزوار."
+
+msgid "You are not allowed to do that."
+msgstr "غير مسموح لك بتنفيذ هذا الإجراء."
+
+msgid "You are not allowed to preview this slider."
+msgstr ""
+
+msgid ""
+"You can switch autoplay on or off, set the interval, pause on hover, loop infinitely, and show or"
+" hide the arrows and pagination dots. Visitors who prefer reduced motion get instant slide "
+"changes and autoplay starts paused."
+msgstr ""
+"يمكن تشغيل العرض التلقائي أو إيقافه، وتحديد الفاصل الزمني والإيقاف عند مرور المؤشر والتكرار "
+"المستمر، وإظهار الأسهم ونقاط الصفحات أو إخفائها. تُعرض الانتقالات فورًا لمن يفضّلون تقليل الحركة،"
+" ويبدأ التشغيل التلقائي متوقفًا مؤقتًا."
+
+msgid "You do not have permission to access this page."
+msgstr "ليس لديك صلاحية الوصول إلى هذه الصفحة."
+
+msgid "You have unsaved changes."
+msgstr "لديك تغييرات غير محفوظة."
+
+msgid "Your headline here"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "تكبير"
+
+msgid "Zoom Out"
+msgstr "تصغير"
+
+msgid "carousel"
+msgstr "سلايدر"
+
+msgid "e.g. Home page hero"
+msgstr "مثال: سلايدر الصفحة الرئيسية"
+
+msgid "slide"
+msgstr "شريحة"
+
+msgid "Carousel slider"
+msgstr "سلايدر دائري"
+
+msgid "Show multiple cards at once using images, blog posts, products, or portfolio projects."
+msgstr "اعرض عدة بطاقات في الوقت نفسه باستخدام الصور أو المقالات أو المنتجات أو المشاريع."
+
+msgid "Carousel"
+msgstr "كاروسيل"
+
+msgid "Carousel layout"
+msgstr "نمط الكاروسيل"
+
+msgid "Standard cards"
+msgstr "بطاقات قياسية"
+
+msgid "Centered active card"
+msgstr "بطاقة نشطة في المنتصف"
+
+msgid "Image carousel"
+msgstr "كاروسيل الصور"
+
+msgid "Product cards"
+msgstr "بطاقات المنتجات"
+
+msgid "Compact cards"
+msgstr "بطاقات مدمجة"
+
+msgid "Visible items: desktop"
+msgstr "عدد الأعمدة على سطح المكتب"
+
+msgid "Visible items: tablet"
+msgstr "عدد الأعمدة على الجهاز اللوحي"
+
+msgid "Visible items: mobile"
+msgstr "عدد الأعمدة على الهاتف"
+
+msgid "Gap between items (px)"
+msgstr "المسافة بين العناصر (بالبكسل)"
+
+msgid "Items per navigation"
+msgstr "عدد العناصر عند كل تنقل"
+
+msgid "Custom images and items"
+msgstr "صور وعناصر مخصصة"
+
+msgid "Add and manage carousel items in the Content tab."
+msgstr "أضف عناصر الكاروسيل وأدرها من تبويب المحتوى."
+
+msgid "Previous items"
+msgstr "العناصر السابقة"
+
+msgid "Next items"
+msgstr "العناصر التالية"
+
+msgid "Carousel pages"
+msgstr "صفحات الكاروسيل"
+
+msgid "No items are available for this carousel."
+msgstr "لا توجد عناصر متاحة لهذا الكاروسيل."
+
+#, python-format
+msgid "Go to item %d"
+msgstr "الانتقال إلى العنصر %d"
+
+msgid "Carousel sliders"
+msgstr "سلايدرات الكاروسيل"
+
+msgid "Create and configure a carousel"
+msgstr "إنشاء Carousel وضبطه"
+
+msgid ""
+"Choose Carousel Slider when creating a new slider. In the Source tab, select Custom images and "
+"items to add your own cards, or select Blog, WooCommerce or Portfolio to retrieve published "
+"content automatically."
+msgstr ""
+"اختر Carousel عند إنشاء سلايدر جديد. في تبويب «المصدر»، اختر «صور وعناصر مخصصة» لإضافة بطاقاتك، "
+"أو اختر المقالات أو WooCommerce أو معرض الأعمال لجلب المحتوى المنشور تلقائيًا."
+
+msgid ""
+"Use the Layout tab to select a card style, set the total number of dynamic items in Source, and "
+"configure how many cards appear on desktop, tablet and mobile. The gap setting controls spacing "
+"between cards."
+msgstr ""
+"استخدم تبويب «التخطيط» لاختيار نمط البطاقة، وحدد العدد الإجمالي للعناصر الديناميكية في «المصدر»، "
+"ثم اضبط عدد البطاقات الظاهرة على الكمبيوتر والجهاز اللوحي والهاتف. يتحكم خيار الفاصل في المسافة "
+"بين البطاقات."
+
+msgid ""
+"Arrows, pagination dots, autoplay, swipe and keyboard focus are supported where applicable. The "
+"carousel adapts to the available width and keeps each item independently linked."
+msgstr ""
+"تتوفر الأسهم ونقاط الصفحات والتشغيل التلقائي والسحب والتنقل بلوحة المفاتيح حيثما ينطبق ذلك. يتكيف"
+" Carousel مع العرض المتاح، ويحتفظ كل عنصر برابطه المستقل."
+
+msgid "Carousel card corner radius (px)"
+msgstr "استدارة زوايا بطاقات الكاروسيل (بكسل)"
+
+msgid "Carousel image shape"
+msgstr "شكل صورة الكاروسيل"
+
+msgid "Rectangle"
+msgstr "مستطيل"
+
+msgid "Circle"
+msgstr "دائري"
+
+msgid "Slider container corner radius (px)"
+msgstr "استدارة زوايا حاوية السلايدر (بكسل)"
+
+msgid "Add multiple images"
+msgstr "إضافة عدة صور"
+
+msgid "Custom items"
+msgstr "العناصر المخصصة"
+
+msgid "The WordPress Media Library is unavailable."
+msgstr "مكتبة وسائط ووردبريس غير متاحة."
+
+msgid "Dynamic slider guide"
+msgstr "دليل السلايدر الديناميكي"
+
+msgid "Carousel guide"
+msgstr "دليل عرض Carousel"
+
+msgid "Add Multiple Images"
+msgstr "إضافة عدة صور"
+
+msgid "Replace image for selected item"
+msgstr "استبدال صورة العنصر المحدد"
+
+msgid ""
+"A Carousel slider displays multiple cards at once. Choose custom items or retrieve items from "
+"Blog, WooCommerce or Portfolio, then set how many items are shown on desktop, tablet and mobile."
+msgstr ""
+"يعرض سلايدر Carousel عدة بطاقات في الوقت نفسه. اختر عناصر مخصصة أو اجلب العناصر من المقالات أو "
+"WooCommerce أو معرض الأعمال، ثم حدّد عدد العناصر الظاهرة على الكمبيوتر والجهاز اللوحي والهاتف."
+
+msgid "Type a name and choose Custom, Dynamic or Carousel."
+msgstr "أدخل اسمًا واختر سلايدر مخصصًا أو ديناميكيًا أو Carousel."
+

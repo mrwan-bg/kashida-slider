@@ -1,0 +1,1781 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Kashida Slider 1.2.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-16 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: includes/class-ks-storage.php
+#, python-format
+msgid "%s (copy)"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"A Custom slider is built slide by slide: you choose every image, heading,"
+" text and button yourself."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"A Dynamic slider has one design that is applied to your latest published "
+"posts, WooCommerce products or portfolio projects. New content appears "
+"automatically; you never rebuild slides by hand."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "A dynamic slider is empty"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "A lightweight visual slider builder for custom and dynamic content."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "A short description for this slide."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "A slider must keep at least one slide."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "A slider needs at least one slide."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Add a Raw HTML or Text Block element to the page and paste the shortcode "
+"into it. Any builder element that processes WordPress shortcodes will "
+"work. The slider fills the width of its container."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Add a Shortcode block to your page, paste the shortcode, and update the "
+"page."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid ""
+"Add at least two slides (or make sure the source returns two or more "
+"items) to preview a transition."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Add slide"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Add, duplicate, delete and reorder slides"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "All changes saved"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "All modes"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "All sliders"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "All sources"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Animation"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Apply"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Are Arabic and right-to-left layouts supported?"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Ascending"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Author"
+msgstr ""
+
+#: includes/class-ks-admin.php
+#, python-format
+msgid "Auto (up to %d)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Autoplay"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Autoplay interval (ms)"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Back to the Slider Library"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Background"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Background fill"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Background image"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Background images"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Behind text area only"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Block editor"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Blog"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Blog posts"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Blog posts, WooCommerce products and portfolio-type custom post types."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Bold"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Border radius (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid ""
+"Build a custom slider slide by slide, or generate slides automatically "
+"from your posts, products or portfolio."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Button"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Button URLs must start with http://, https://, mailto: or tel:, or be a "
+"relative address such as /contact."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Button label (blank = default)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Button text size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Buttons"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Buttons: colors, outline or solid secondary style, corner radius and text"
+" size."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Cache duration (minutes, 0 = off)"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Can I edit or delete a slider later?"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Can I turn a Custom slider into a Dynamic one?"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Center"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Change"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Changes do not appear immediately"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Check that the shortcode ID matches a slider in the Slider Library. If "
+"the slider was deleted, administrators see a notice and visitors see "
+"nothing."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Choose \"Blog posts\" under Content source."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Choose \"Portfolio projects\", then select the portfolio post type."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Choose an image"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Click \"Add slide\" in the toolbar to add a slide."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Click \"Create and open editor\"."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Click Save before checking the site. Then clear any page-cache, CDN or "
+"browser cache. Dynamic sliders refresh automatically when content "
+"changes, but cache plugins may serve an older copy of the page."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Color"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Colors, typography and layouts"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Contain"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Content"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Content source"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Content spacing (px)"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Copy"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Copy Shortcode"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Copy failed. Select the shortcode and copy it manually."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Cover"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Create New Slider"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Create a new slider"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Create and open editor"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Create your first slider"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Created"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Creation mode"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Crossfade"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Custom"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Custom slider"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Custom slider guide"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Custom vs. Dynamic sliders"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Date"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Delete"
+msgstr ""
+
+#: includes/class-ks-admin.php
+#, python-format
+msgid "Delete \"%s\" permanently? This cannot be undone."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Delete slide"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Delete slider?"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Delete this slide?"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Descending"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Description"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Description color"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Description size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Description weight"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Design each slide manually: images, text, buttons and layouts."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Desktop, tablet and mobile settings"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Developer"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Direction"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Does duplicating share settings with the original?"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Down"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Duplicate slide"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Dynamic"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Dynamic content slider"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Dynamic content sliders"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Dynamic sliders show nothing (to visitors) when no published content "
+"matches their filters."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid ""
+"Dynamic slides use these design settings for every item. Text and images "
+"come from your content automatically."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Each thumbnail below the preview has buttons to move it earlier or later,"
+" duplicate it, or delete it. You can also drag thumbnails to reorder "
+"them."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Each time the slider is displayed it fetches published content that "
+"matches its saved filters. Drafts, private and password-protected items "
+"are never shown. Results are cached for a short time (set in Source → "
+"Cache duration) and the cache is cleared automatically when content is "
+"published, updated or deleted."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Edit"
+msgstr ""
+
+#: includes/class-ks-admin.php
+#, python-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Edit Slider"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Edit a page or post and add a Shortcode block."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Enable WP_DEBUG and open your browser console to look for errors from "
+"other scripts."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "End"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Every slider has its own shortcode, shown on its card in the Slider "
+"Library and in the editor toolbar. Click the shortcode button to copy it."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Excerpt"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Extra bold"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "FAQ"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Fade"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Fallback image (used when an item has no featured image)"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Fields to show"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Filter by terms"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Find and copy your shortcode"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Focal point X (%)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Focal point Y (%)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Full background"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Getting started"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+#, python-format
+msgid "Go to slide %d"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Gradient"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Gradient angle"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Gradient end color"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Heading"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Heading color"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Heading size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Heading weight"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Headings, descriptions and buttons"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Help"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Help Center"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Help sections"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Hero Overlay"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "How dynamic sliders work"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "ID"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"If no suitable post type exists, the editor says so and you can choose "
+"another source."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"If the shortcode appears as plain text, it was probably pasted into a "
+"field that does not process shortcodes. Use a Shortcode block or a "
+"builder element that supports them. Keep the straight quotes exactly as "
+"copied."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"If the slider works, the conflict comes from the theme or plugin you "
+"disabled; note its name."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Image"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Image at bottom"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Image on top"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Image side (Split)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Image sizing"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Images do not display"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"In the Animation tab choose a transition: Fade, Crossfade, Slide, Zoom "
+"In, Zoom Out, Push or Wipe / Reveal. Slide, Push and Wipe also have a "
+"direction. Set the duration in milliseconds and click Preview Animation "
+"to see the effect without saving."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Infinite loop"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Insert a slider into a page"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Installed version"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Invalid data received."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Is the slider responsive?"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Its taxonomies and terms (for example project categories) appear as "
+"checkboxes; tick the ones to include."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "JavaScript is required to use the slider editor."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Kashida Media Services"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Kashida Slider"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Kashida Slider is a lightweight visual builder for hero banners and "
+"content carousels. You design in a live preview and show the result "
+"anywhere on your site with a shortcode."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Kashida Slider navigation"
+msgstr ""
+
+#: kashida-slider.php
+msgid "Kashida Slider requires PHP 7.4+ and WordPress 6.0+."
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid ""
+"Kashida Slider: no published content matches this slider's source "
+"settings."
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Kashida Slider: this slider does not exist or was deleted."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Layout"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Layout also controls text alignment, vertical position, maximum text "
+"width and content spacing."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Layout preset"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Layout: Hero Overlay (text over a full image), Split (text on one side, "
+"image on the other) or Minimal (typography only). Switching layouts never"
+" deletes your content."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Learn more"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Left"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "License"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Loading editor…"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Make sure the shortcode is in a block or element that processes "
+"shortcodes, and that the page was updated and any cache plugin was "
+"cleared."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Maximum number of slides reached."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Maximum text width (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Medium"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Menu order"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Middle"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Minimal"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Mobile background image (optional)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Mobile: alignment"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Mobile: button text size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Mobile: content spacing (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Mobile: description size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Mobile: heading size (px)"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Modified"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Move earlier"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Move later"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Name A–Z"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Name Z–A"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Newest modified"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Next slide"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "No categories or tags available for this source."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid ""
+"No portfolio-type content was found. Your theme or plugin must register a"
+" public custom post type (for example \"portfolio\"). Please choose "
+"another source."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "No sliders match your search"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "No. A duplicate is an independent copy with its own ID and shortcode."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"No. The mode is fixed when the slider is created. Create a new slider in "
+"the other mode; you can keep the original."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "None"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Number of items"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Oldest modified"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"On right-to-left sites horizontal directions are mirrored automatically, "
+"and the arrow keys and swipe gestures follow the reading direction."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Open Kashida Slider → Create New Slider."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Open primary button in a new tab"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Open secondary button in a new tab"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Open the Content tab to edit the heading and description, and to set the "
+"label and destination URL of the primary button and an optional secondary"
+" button. You can also click any text or button inside the preview to jump"
+" to its setting."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Open the Slider Library and click the shortcode button on your slider "
+"card to copy the shortcode."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Order"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Original size"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Outline"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Overlay color"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Overlay opacity (%)"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Paste the shortcode and update the page."
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Pause autoplay"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Pause on hover"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Pick product categories and tags to filter the products."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Playing…"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid ""
+"Plays the selected effect on the preview. Nothing is saved and the slider"
+" returns to its starting slide."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Plugin information"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Plugin name"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Plugin or theme conflicts"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Portfolio"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Portfolio categories are missing"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Portfolio post type"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Portfolio projects"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Portfolios are not part of WordPress itself: each theme or plugin "
+"registers its own content type and taxonomies. Kashida Slider therefore "
+"lists every public custom post type on your site (except posts, pages and"
+" products) so you can choose the one that holds your projects."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Posts without a featured image use the fallback image if you set one."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Preview"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Preview Animation"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Preview could not be loaded."
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Previous slide"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Price"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Price (with sale price)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Primary background"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Primary button URL"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Primary button label"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Primary text color"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Problems that go away when you change a setting or content are "
+"configuration issues. A PHP error or a JavaScript error that mentions "
+"kashida-slider is a likely plugin defect: report it with the error text "
+"and your WordPress and PHP versions."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Products can also be sorted by price. Products hidden from the catalog "
+"are skipped."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Products require an active WooCommerce. Portfolios require a theme or "
+"plugin that registers a public portfolio-type content type."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Publication date"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Push"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Re-select the image in the Background tab. If the image was deleted from "
+"the media library, or the site address changed (for example from http to "
+"https) after the slider was saved, the stored address no longer works. "
+"Also check that the slide height is large enough to show the image."
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Read more"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Read the Help Center"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Regular"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Remove"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Remove category or tag filters to see whether any content is returned. "
+"Confirm that the content is published (not draft or private) and, for "
+"products, visible in the catalog. Several filters narrow the result: "
+"items must match every selected taxonomy."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Replace 123 with your slider's ID. The id attribute is the only attribute"
+" the shortcode supports."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Reset"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Responsive"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Responsive layout problems"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Results refresh automatically when content changes."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Right"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Same as larger screen"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Save"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Save and preview"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Save failed"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Search by name…"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Search sliders by name"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Secondary border / background"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Secondary button URL"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Secondary button label (optional)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Secondary style"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Secondary text color"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Select image"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Select the correct portfolio post type first; the list of taxonomies "
+"depends on it. Only taxonomies that have at least one term are listed, "
+"and the theme or plugin that provides the portfolio must be active."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Select the slide, open the Background tab and click \"Select image\" to "
+"pick a file from the media library. Use the focal point sliders to choose"
+" which part of the image stays visible when it is cropped, and set sizing"
+" to Cover, Contain or Original size."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Semi-bold"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Set the number of posts (1–20), then sort by date, title or menu order, "
+"ascending or descending."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Set the number of projects, sorting and which fields to show (image, "
+"title, excerpt, button)."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Shortcode copied"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Shortcode placement problems"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Show navigation arrows"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Show or hide the image, title, excerpt, publication date and button. You "
+"can change the button label and the excerpt length."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Show pagination dots"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Show the product image, name, price (sale prices are shown with the "
+"regular price) and button. The button links to the product page."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Showing %1$d of %2$d"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slide"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Slide %1$d of %2$d"
+msgstr ""
+
+#: includes/class-ks-storage.php
+msgid "Slider"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider Library"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider created."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider deleted."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider duplicated."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Slider height: desktop (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Slider height: mobile (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Slider height: tablet (px)"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider name"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider not found."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slider type"
+msgstr ""
+
+#: includes/class-ks-storage.php
+msgid "Sliders"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Slides"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid ""
+"Slides are generated automatically from blog posts, WooCommerce products "
+"or portfolio projects."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Solid"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Solid color"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Sort by"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Source"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Split Layout"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Split layout on small screens"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Start"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "Start autoplay"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Tablet: alignment"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Tablet: button text size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Tablet: content spacing (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Tablet: description size (px)"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Tablet: heading size (px)"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Temporarily switch to a default theme such as Twenty Twenty-Four, or "
+"deactivate other plugins one at a time."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Text alignment"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Text overlay"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "That slider no longer exists."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"The Preview button in the toolbar opens the saved slider on its own page."
+" Save first so that page shows your latest changes."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"The Responsive tab sets the slider height for each device, plus heading, "
+"description, button and spacing sizes for tablet and mobile. You can also"
+" set a different alignment and an optional mobile background image. Use "
+"the device buttons above the preview to check the result."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"The mode is chosen when the slider is created and cannot be changed "
+"afterwards."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"The preview in the editor updates as you change settings. Use the "
+"Desktop, Tablet and Mobile buttons to check each screen size. Click Save "
+"(or press Ctrl/Cmd+S) to store your work; the status next to the button "
+"shows whether you have unsaved changes."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"The product source needs WooCommerce to be installed and active. Activate"
+" it and reload the editor."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "The slider does not appear"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "This slider does not exist or was deleted."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Tick one or more categories (and tags) to limit the posts. Leave "
+"everything unticked to use all posts."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Tip: click text or buttons in the preview to edit them."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Title"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Top"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Transition"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Transition duration (ms)"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Transitions, autoplay and navigation"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Try a different name or clear the filters."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Type a name and choose Custom or Dynamic."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Typography"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Typography: heading and description color, weight and size."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Unsaved changes"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Untitled slider"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Up"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Updating preview…"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Use the Tablet and Mobile preview and the Responsive tab: raise the "
+"mobile height if text is cut off, reduce the font sizes, or reduce the "
+"content spacing. The Split layout stacks the image and text on screens "
+"narrower than 900 px."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "Use this image"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Using shortcodes"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Vertical position"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "View product"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "View project"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "WPBakery and other page builders"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Website"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "What Kashida Slider does"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "What do products and portfolios require?"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "Which content sources are supported?"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Wipe / Reveal"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Without an image you can use a solid color or a two-color gradient. The "
+"Text overlay setting darkens only the area behind the text by default; "
+"choose \"Full background\" to cover the whole image."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "WooCommerce is not active on this site. Activate it to use products."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"WooCommerce must be installed and active; otherwise the product source "
+"shows a notice and no products are displayed."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid "WooCommerce options are missing"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "WooCommerce products"
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Yes. Height, text sizes, spacing and alignment can be set separately for "
+"desktop, tablet and mobile, and the slider never overflows its container."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Yes. The interface and the slider follow the site language direction. The"
+" plugin is translation-ready; it only appears in a given language if a "
+"translation file for that language is installed."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"Yes. Use the Slider Library to edit, duplicate or delete any slider. "
+"Deleting asks for confirmation and cannot be undone. A page that still "
+"contains the shortcode of a deleted slider shows nothing to visitors."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "You are not allowed to do that."
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "You are not allowed to preview this slider."
+msgstr ""
+
+#: includes/class-ks-help.php
+msgid ""
+"You can switch autoplay on or off, set the interval, pause on hover, loop"
+" infinitely, and show or hide the arrows and pagination dots. Visitors "
+"who prefer reduced motion get instant slide changes and autoplay starts "
+"paused."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "You have unsaved changes."
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Your headline here"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Zoom In"
+msgstr ""
+
+#: includes/class-ks-schema.php
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "carousel"
+msgstr ""
+
+#: includes/class-ks-admin.php
+msgid "e.g. Home page hero"
+msgstr ""
+
+#: includes/class-ks-renderer.php
+msgid "slide"
+msgstr ""
+
+msgid "Carousel slider"
+msgstr ""
+
+msgid ""
+"Show multiple cards at once using images, blog posts, products, or "
+"portfolio projects."
+msgstr ""
+
+msgid "Carousel"
+msgstr ""
+
+msgid "Carousel layout"
+msgstr ""
+
+msgid "Standard cards"
+msgstr ""
+
+msgid "Centered active card"
+msgstr ""
+
+msgid "Image carousel"
+msgstr ""
+
+msgid "Product cards"
+msgstr ""
+
+msgid "Compact cards"
+msgstr ""
+
+msgid "Visible items: desktop"
+msgstr ""
+
+msgid "Visible items: tablet"
+msgstr ""
+
+msgid "Visible items: mobile"
+msgstr ""
+
+msgid "Gap between items (px)"
+msgstr ""
+
+msgid "Items per navigation"
+msgstr ""
+
+msgid "Custom images and items"
+msgstr ""
+
+msgid "Add and manage carousel items in the Content tab."
+msgstr ""
+
+msgid "Previous items"
+msgstr ""
+
+msgid "Next items"
+msgstr ""
+
+msgid "Carousel pages"
+msgstr ""
+
+msgid "No items are available for this carousel."
+msgstr ""
+
+#, python-format
+msgid "Go to item %d"
+msgstr ""
+
+msgid "Carousel sliders"
+msgstr ""
+
+msgid "Create and configure a carousel"
+msgstr ""
+
+msgid ""
+"Choose Carousel Slider when creating a new slider. In the Source tab, "
+"select Custom images and items to add your own cards, or select Blog, "
+"WooCommerce or Portfolio to retrieve published content automatically."
+msgstr ""
+
+msgid ""
+"Use the Layout tab to select a card style, set the total number of "
+"dynamic items in Source, and configure how many cards appear on desktop, "
+"tablet and mobile. The gap setting controls spacing between cards."
+msgstr ""
+
+msgid ""
+"Arrows, pagination dots, autoplay, swipe and keyboard focus are supported"
+" where applicable. The carousel adapts to the available width and keeps "
+"each item independently linked."
+msgstr ""
+
+
+
+msgid "Carousel card corner radius (px)"
+msgstr ""
+
+
+msgid "Carousel image shape"
+msgstr ""
+
+
+msgid "Rectangle"
+msgstr ""
+
+
+msgid "Circle"
+msgstr ""

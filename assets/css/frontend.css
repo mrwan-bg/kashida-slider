@@ -1,0 +1,185 @@
+/* Kashida Slider – frontend. Logical properties keep RTL working. */
+.ks-slider,.ks-slider *{box-sizing:border-box}
+.ks-slider{position:relative;width:100%;max-width:100%;height:var(--ks-h,560px);overflow:hidden;direction:ltr;touch-action:pan-y;background:#1d2327;isolation:isolate;margin:0;padding:0}
+.ks-track{position:absolute;inset:0}
+.ks-slide{position:absolute;inset:0;display:flex;background:var(--ks-sbg,#1d2327);visibility:hidden;opacity:0;overflow:hidden}
+.ks-slide[dir=rtl]{direction:rtl}
+.ks-slide[dir=ltr]{direction:ltr}
+.ks-slide.is-active,.ks-slide.is-leaving{visibility:visible}
+.ks-slide.is-active{opacity:1;z-index:2}
+.ks-slide.is-leaving{z-index:1}
+/* Fade (class-driven) */
+.ks-t-fade .ks-slide{transition:opacity var(--ks-dur,600ms) ease,visibility 0s linear var(--ks-dur,600ms)}
+.ks-t-fade .ks-slide.is-active{transition-delay:0s}
+/* Non-fade effects use inline transition properties from frontend.js. Keep inactive slides hidden. */
+.ks-fx .ks-slide:not(.is-active):not(.is-leaving){opacity:0;visibility:hidden}
+.ks-slider.is-animating .ks-slide.is-active,.ks-slider.is-animating .ks-slide.is-leaving{visibility:visible}
+.ks-slider.is-animating .ks-slide.is-active,.ks-slider.is-animating .ks-slide.is-leaving{will-change:transform,opacity,clip-path}
+
+.ks-media{position:absolute;inset:0;background-image:var(--ks-bg,none);background-repeat:no-repeat;background-size:var(--ks-size,cover);background-position:var(--ks-px,50%) var(--ks-py,50%)}
+.ks-overlay{position:absolute;inset:0;background:var(--ks-ov)}
+.ks-inner{position:relative;z-index:2;display:flex;width:100%;min-width:0;align-items:var(--ks-va,center);justify-content:var(--ks-j,flex-start);padding:var(--ks-sp,48px)}
+.ks-content{width:100%;max-width:var(--ks-mw,560px);text-align:var(--ks-ta,start);overflow-wrap:anywhere}
+.ks-ov-content .ks-content{background:var(--ks-ov);padding:clamp(16px,calc(var(--ks-sp,48px) * .6),48px);border-radius:8px}
+
+.ks-slider .ks-slide .ks-h{margin:0 0 .45em;padding:0;color:var(--ks-hc,#fff);font-size:var(--ks-hs,48px);font-weight:var(--ks-hw,700);line-height:1.15;letter-spacing:normal;text-transform:none;text-shadow:none}
+.ks-slider .ks-slide .ks-d{margin:0 0 1.2em;padding:0;color:var(--ks-dc,#fff);font-size:var(--ks-ds,18px);font-weight:var(--ks-dw,400);line-height:1.6}
+.ks-slider .ks-slide .ks-meta{display:block;margin:0 0 .6em;color:var(--ks-dc,#fff);font-size:13px;opacity:.85}
+.ks-slider .ks-slide .ks-price{margin:0 0 .6em;color:var(--ks-hc,#fff);font-size:calc(var(--ks-ds,18px) * 1.2);font-weight:700}
+.ks-slider .ks-slide .ks-price *{color:inherit;text-decoration-thickness:1px}
+.ks-slider .ks-slide .ks-price ins{background:none;text-decoration:none}
+.ks-slider .ks-slide .ks-price del{opacity:.65;margin-inline-end:.4em;font-weight:400}
+.ks-btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:var(--ks-j,flex-start)}
+.ks-slider .ks-slide .ks-btn{display:inline-block;padding:.75em 1.6em;border:2px solid transparent;border-radius:var(--ks-br,4px);font-size:var(--ks-bs,16px);font-weight:600;line-height:1.2;text-decoration:none;box-shadow:none;cursor:pointer;transition:filter .2s,transform .2s}
+.ks-slider .ks-slide .ks-btn1{background:var(--ks-b1bg);color:var(--ks-b1c);border-color:var(--ks-b1bg)}
+.ks-slider .ks-slide .ks-btn2{background:var(--ks-b2bg);color:var(--ks-b2c);border-color:var(--ks-b2bd)}
+.ks-slider .ks-slide .ks-btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.ks-slider a:focus-visible,.ks-slider button:focus-visible{outline:3px solid #fff;outline-offset:2px;box-shadow:0 0 0 5px #F05C41}
+
+/* Split */
+.ks-layout-split{display:grid;grid-template-columns:1fr 1fr}
+.ks-layout-split .ks-media{position:relative;inset:auto;min-height:0}
+.ks-layout-split .ks-inner{min-width:0}
+.ks-layout-split.ks-img-end .ks-media{order:2}
+.ks-layout-split.ks-img-start .ks-media{order:0}
+.ks-layout-split .ks-noimg{background-color:rgba(255,255,255,.06)}
+.ks-layout-split.ks-ov-content .ks-content{background:none;padding:0}
+/* Minimal */
+.ks-layout-minimal .ks-inner{justify-content:var(--ks-j,center)}
+.ks-layout-minimal.ks-ov-content .ks-content{background:none;padding:0}
+
+/* Navigation (the slider mechanics are always LTR; RTL sites get mirrored arrow positions) */
+.ks-arrow{position:absolute;top:50%;z-index:5;display:flex;align-items:center;justify-content:center;width:36px;height:36px;margin:-18px 0 0;padding:0;border:0;border-radius:50%;background:rgba(0,0,0,.35);color:#fff;cursor:pointer;opacity:.75;transition:opacity .2s,background .2s}
+.ks-prev{left:10px}.ks-next{right:10px}
+.ks-rtl .ks-prev{left:auto;right:10px}.ks-rtl .ks-next{right:auto;left:10px}
+.ks-rtl .ks-arrow svg{transform:scaleX(-1)}
+.ks-arrow:hover,.ks-arrow:focus-visible{opacity:1;background:#F05C41}
+.ks-arrow[disabled]{opacity:.25;cursor:default}
+.ks-controls{position:absolute;left:0;right:0;bottom:10px;z-index:5;display:flex;align-items:center;justify-content:center;gap:8px;pointer-events:none}
+.ks-controls>*{pointer-events:auto}
+.ks-dots{display:flex;gap:2px}
+.ks-dot{position:relative;width:22px;height:22px;padding:0;border:0;background:none;cursor:pointer}
+.ks-dot:before{content:"";position:absolute;inset:7px;border-radius:50%;background:rgba(255,255,255,.55);transition:background .2s,transform .2s}
+.ks-dot[aria-current=true]:before{background:#F05C41;transform:scale(1.25)}
+.ks-pause{display:flex;align-items:center;justify-content:center;width:22px;height:22px;padding:0;border:0;border-radius:50%;background:rgba(0,0,0,.35);cursor:pointer}
+.ks-pause .ks-ico{display:block;width:8px;height:8px;border-inline:2px solid #fff}
+.ks-pause.is-paused .ks-ico{width:0;height:0;border:4px solid transparent;border-inline-start:7px solid #fff;border-inline-end:0}
+.ks-single .ks-arrow,.ks-single .ks-controls{display:none}
+.ks-notice{padding:1em;text-align:center;border:1px dashed #c3c4c7}
+
+@media (max-width:900px){
+	.ks-slider{height:var(--ks-h-t,var(--ks-h,480px))}
+	.ks-slider .ks-slide .ks-h{font-size:var(--ks-hs-t,36px)}
+	.ks-slider .ks-slide .ks-d{font-size:var(--ks-ds-t,16px)}
+	.ks-slider .ks-slide .ks-btn{font-size:var(--ks-bs-t,15px)}
+	.ks-inner{padding:var(--ks-sp-t,32px);justify-content:var(--ks-j-t,var(--ks-j,flex-start))}
+	.ks-content{text-align:var(--ks-ta-t,var(--ks-ta,start))}
+	.ks-btns{justify-content:var(--ks-j-t,var(--ks-j,flex-start))}
+	.ks-ov-content .ks-content{padding:16px}
+}
+@media (max-width:600px){
+	.ks-slider{height:var(--ks-h-m,var(--ks-h-t,var(--ks-h,440px)))}
+	.ks-slider .ks-slide .ks-h{font-size:var(--ks-hs-m,26px)}
+	.ks-slider .ks-slide .ks-d{font-size:var(--ks-ds-m,14px)}
+	.ks-slider .ks-slide .ks-btn{font-size:var(--ks-bs-m,14px)}
+	.ks-inner{padding:var(--ks-sp-m,20px);justify-content:var(--ks-j-m,var(--ks-j-t,var(--ks-j,flex-start)))}
+	.ks-content{text-align:var(--ks-ta-m,var(--ks-ta-t,var(--ks-ta,start)))}
+	.ks-btns{justify-content:var(--ks-j-m,var(--ks-j-t,var(--ks-j,flex-start)))}
+	.ks-media{background-image:var(--ks-bg-m,var(--ks-bg,none))}
+	.ks-arrow{width:30px;height:30px;margin-top:-15px}
+}
+@media (max-width:900px){
+	.ks-layout-split{grid-template-columns:1fr}
+	.ks-layout-split.ks-stack-top{grid-template-rows:minmax(0,38%) minmax(0,1fr)}
+	.ks-layout-split.ks-stack-bottom{grid-template-rows:minmax(0,1fr) minmax(0,38%)}
+	.ks-layout-split.ks-stack-top .ks-media{order:0}
+	.ks-layout-split.ks-stack-top .ks-inner{order:1}
+	.ks-layout-split.ks-stack-bottom .ks-media{order:2}
+	.ks-layout-split.ks-stack-bottom .ks-inner{order:1}
+	.ks-layout-split .ks-inner{align-items:center}
+}
+@media (prefers-reduced-motion:reduce){
+	/* JS limits slide transitions to a short duration; do not override them with !important. */
+	.ks-btn,.ks-dot:before,.ks-arrow{transition:none!important}
+}
+
+
+/* Responsive carousel layouts */
+.ks-carousel,.ks-carousel *{box-sizing:border-box}
+.ks-carousel{position:relative;width:100%;max-width:100%;direction:ltr;margin:0;padding:0}
+.ks-carousel-toolbar{display:flex;justify-content:flex-end;gap:8px;margin-block-end:10px}
+.ks-carousel-toolbar button{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #dcdcde;border-radius:50%;background:#fff;color:#1d2327;font-size:20px;line-height:1;cursor:pointer}
+.ks-carousel-toolbar button:hover{background:#F05C41;border-color:#F05C41;color:#fff}
+.ks-carousel-track{display:flex;align-items:stretch;gap:var(--ks-cgap,18px);overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;scroll-behavior:smooth;padding:2px 1px 2px;overscroll-behavior-inline:contain;touch-action:pan-x pan-y; -webkit-overflow-scrolling:touch}
+.ks-carousel-track:focus-visible{outline:2px solid #F05C41;outline-offset:2px}
+.ks-carousel-track::-webkit-scrollbar{display:none;width:0;height:0}
+.ks-carousel-item{flex:0 0 calc((100% - (var(--ks-cv-d,4) - 1)*var(--ks-cgap,18px))/var(--ks-cv-d,4));min-width:0;overflow:hidden;border:1px solid #e2e4e7;border-radius:10px;background:#fff;color:#1d2327;scroll-snap-align:start;display:flex;flex-direction:column;text-align:start}
+.ks-carousel-image-link{display:block;line-height:0}
+.ks-carousel-card-image{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#f0f0f1}
+.ks-carousel-no-image{background:linear-gradient(135deg,#f0f0f1,#dcdcde)}
+.ks-carousel-body{display:flex;flex:1;flex-direction:column;align-items:flex-start;gap:8px;padding:14px}
+.ks-carousel-title{margin:0;color:inherit;font-size:17px;line-height:1.35;font-weight:600}
+.ks-carousel-desc{margin:0;color:#646970;font-size:14px;line-height:1.55}
+.ks-carousel-price{font-weight:700;font-size:16px}
+.ks-carousel-link{display:inline-block;margin-block-start:auto;padding:8px 12px;border-radius:5px;background:#F05C41;color:#fff!important;text-decoration:none;font-size:13px;font-weight:600}
+.ks-carousel-centered .ks-carousel-item{scroll-snap-align:center}
+.ks-carousel-centered .ks-carousel-item:first-child{margin-inline-start:calc((100% - (100% - (var(--ks-cv-d,3) - 1)*var(--ks-cgap,18px))/var(--ks-cv-d,3))/2)}
+.ks-carousel-image{display:block}
+.ks-carousel-compact .ks-carousel-card-image{aspect-ratio:16/10}
+.ks-carousel-compact .ks-carousel-body{padding:10px;gap:5px}
+.ks-carousel-compact .ks-carousel-title{font-size:15px}
+.ks-carousel-product .ks-carousel-item{box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.ks-carousel[dir=rtl]{direction:rtl}
+@media(max-width:900px){.ks-carousel-item{flex-basis:calc((100% - (var(--ks-cv-t,2) - 1)*var(--ks-cgap,18px))/var(--ks-cv-t,2))}}
+@media(max-width:600px){.ks-carousel-item{flex-basis:calc((100% - (var(--ks-cv-m,1) - 1)*var(--ks-cgap,18px))/var(--ks-cv-m,1))}.ks-carousel-toolbar button{width:32px;height:32px}}
+@media(prefers-reduced-motion:reduce){.ks-carousel-track{scroll-behavior:auto}}
+
+.ks-carousel-dots{display:flex;justify-content:center;gap:5px;margin-block-start:8px}.ks-carousel-dot{width:9px;height:9px;padding:0;border:0;border-radius:50%;background:#c3c4c7;cursor:pointer}.ks-carousel-dot[aria-current=true]{background:#F05C41;transform:scale(1.15)}
+
+/* v1.3.1: consistent animation and carousel metadata styling */
+.ks-slider .ks-slide{backface-visibility:hidden}
+.ks-carousel-date{display:block;color:#646970;font-size:12px;line-height:1.4}
+.ks-carousel-image .ks-carousel-body{padding:10px 12px}
+.ks-carousel-image .ks-carousel-desc,.ks-carousel-image .ks-carousel-price,.ks-carousel-image .ks-carousel-link{display:none}
+
+
+/* v1.3.6: apply the editor's design settings to carousel cards. */
+.ks-carousel-item{background:var(--ks-card-bg,#fff);color:var(--ks-card-hc,#1d2327);border-radius:var(--ks-card-btn-radius,10px);text-align:var(--ks-card-align,start)}
+.ks-carousel-media{position:relative;display:block;overflow:hidden;width:100%;background:var(--ks-card-bg,#f0f0f1);line-height:0}
+.ks-carousel-media picture{display:block;width:100%}
+.ks-carousel-card-image{width:100%;height:auto;aspect-ratio:4/3;object-fit:var(--ks-card-size,cover);object-position:var(--ks-card-px,50%) var(--ks-card-py,50%);background:transparent}
+.ks-carousel-no-image{min-height:120px;background:var(--ks-card-bg,linear-gradient(135deg,#f0f0f1,#dcdcde))}
+.ks-carousel-image-overlay{position:absolute;inset:0;pointer-events:none;background:var(--ks-card-overlay,transparent)}
+.ks-carousel-body{padding:var(--ks-card-pad,14px);gap:8px;align-items:var(--ks-card-align,start);justify-content:var(--ks-card-valign,flex-start);background:var(--ks-card-bg,#fff);color:var(--ks-card-hc,#1d2327);text-align:var(--ks-card-align,start)}
+.ks-carousel-body.ks-ov-content{background:var(--ks-card-overlay,transparent)}
+.ks-carousel-body.ks-ov-none{background:transparent}
+.ks-carousel-title{width:100%;max-width:var(--ks-card-max,100%);color:var(--ks-card-hc,#1d2327);font-size:var(--ks-card-hs,17px);font-weight:var(--ks-card-hw,600);line-height:1.35}
+.ks-carousel-desc{width:100%;max-width:var(--ks-card-max,100%);color:var(--ks-card-dc,#646970);font-size:var(--ks-card-ds,14px);font-weight:var(--ks-card-dw,400);line-height:1.55}
+.ks-carousel-date{color:var(--ks-card-dc,#646970)}
+.ks-carousel-price{color:var(--ks-card-hc,#1d2327);font-size:var(--ks-card-ds,16px);font-weight:700}
+.ks-carousel-link{padding:.65em 1.1em;border-radius:var(--ks-card-btn-radius,5px);background:var(--ks-card-btn-bg,#F05C41);color:var(--ks-card-btn-color,#fff)!important;font-size:var(--ks-card-btn-size,13px);align-self:var(--ks-card-align,start);text-align:center}
+.ks-carousel-item .ks-carousel-body.ks-ov-content{background:var(--ks-card-overlay,transparent)}
+@media(max-width:900px){.ks-carousel-body{padding:var(--ks-card-pad-t,12px)}.ks-carousel-title{font-size:var(--ks-card-hs-t,var(--ks-card-hs,17px))}.ks-carousel-desc{font-size:var(--ks-card-ds-t,var(--ks-card-ds,14px))}.ks-carousel-link{font-size:var(--ks-card-btn-size-t,var(--ks-card-btn-size,13px))}}
+@media(max-width:600px){.ks-carousel-body{padding:var(--ks-card-pad-m,10px)}.ks-carousel-title{font-size:var(--ks-card-hs-m,var(--ks-card-hs-t,var(--ks-card-hs,17px)))}.ks-carousel-desc{font-size:var(--ks-card-ds-m,var(--ks-card-ds-t,var(--ks-card-ds,14px)))}.ks-carousel-link{font-size:var(--ks-card-btn-size-m,var(--ks-card-btn-size-t,var(--ks-card-btn-size,13px)))}}
+
+
+/* v1.3.7: carousel card radius, circular image mode and side navigation. */
+.ks-carousel{--ks-carousel-radius:10px}
+.ks-carousel-item{border-radius:var(--ks-carousel-radius,10px)!important}
+.ks-carousel .ks-carousel-toolbar{position:static;display:block;margin:0}
+.ks-carousel .ks-carousel-toolbar button{position:absolute;z-index:5;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.14);background:#fff;color:#1d2327;border:1px solid #dcdcde}
+.ks-carousel .ks-carousel-prev{inset-inline-start:8px}
+.ks-carousel .ks-carousel-next{inset-inline-end:8px}
+.ks-carousel .ks-carousel-dots{position:relative;z-index:2}
+.ks-carousel-shape-circle .ks-carousel-media{width:min(100%,260px);aspect-ratio:1/1;border-radius:50%;margin-inline:auto}
+.ks-carousel-shape-circle .ks-carousel-card-image{width:100%;height:100%;aspect-ratio:1/1;border-radius:50%;object-fit:cover}
+.ks-carousel-shape-circle .ks-carousel-no-image{width:100%;height:100%;min-height:0;border-radius:50%;aspect-ratio:1/1}
+.ks-carousel-shape-circle .ks-carousel-item{align-items:stretch}
+.ks-carousel-shape-circle .ks-carousel-media picture{width:100%;height:100%}
+.ks-carousel-shape-circle .ks-carousel-image-link{width:100%;height:100%}
+.ks-carousel-shape-circle .ks-carousel-image-link img{height:100%}
+@media(max-width:600px){.ks-carousel .ks-carousel-toolbar button{width:32px;height:32px}.ks-carousel .ks-carousel-prev{inset-inline-start:4px}.ks-carousel .ks-carousel-next{inset-inline-end:4px}.ks-carousel-shape-circle .ks-carousel-media{width:min(100%,220px)}}
+
+/* v1.3.8: configurable radius for all slider containers */
+.ks-slider,.ks-carousel{border-radius:var(--ks-slider-radius,0px)}
+.ks-slider{clip-path:inset(0 round var(--ks-slider-radius,0px))}
