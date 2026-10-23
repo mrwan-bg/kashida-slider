@@ -104,7 +104,9 @@ The feature images above illustrate the plugin’s slider modes, carousel contro
 
 ## Support and contributions
 
-- **Kashida plugin page:** [View plugin information](https://kashida.ly/wp-plugins/kashida-slider/)\n- **Live demo:** [Try Kashida Slider](https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/)\n- **Repository:** [mrwan-bg/kashida-slider](https://github.com/mrwan-bg/kashida-slider)
+- **Kashida plugin page:** [View plugin information](https://kashida.ly/wp-plugins/kashida-slider/)
+- **Live demo:** [Try Kashida Slider](https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/)
+- **Repository:** [mrwan-bg/kashida-slider](https://github.com/mrwan-bg/kashida-slider)
 - **Issues:** [Report a bug or request a feature](https://github.com/mrwan-bg/kashida-slider/issues)
 - **⬇️ Download:** [Download the latest plugin ZIP](https://github.com/mrwan-bg/kashida-slider/releases)
 - **Releases:** [View all releases](https://github.com/mrwan-bg/kashida-slider/releases)
