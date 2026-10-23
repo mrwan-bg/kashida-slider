@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Kashida Slider
  * Plugin URI:        https://kashida.ly/
- * Description:       A lightweight visual slider and carousel builder by Kashida Media Services. Create custom slides or responsive carousels from Posts, WooCommerce Products and Portfolio projects.
- * Version:           1.4.9
+ * Description:       A lightweight visual slider and carousel builder by Kashida Media Services. Create custom slides and responsive carousels from blog posts, selected WordPress pages, WooCommerce products, and portfolio projects. Customize image shapes, spacing, borders, and responsive layouts.
+ * Version:           1.4.16
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Mrwan elGobee
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'KS_VERSION', '1.4.9' );
+define( 'KS_VERSION', '1.4.16' );
 define( 'KS_FILE', __FILE__ );
 define( 'KS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'KS_URL', plugin_dir_url( __FILE__ ) );
