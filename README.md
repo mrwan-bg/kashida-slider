@@ -4,14 +4,14 @@
   <img src="kashida-slider-screens/Kashida%20Slider%20Carousel%20Icon.png" alt="Kashida Slider icon" width="88" align="left" />
   <h1>Kashida Slider</h1>
   <p><strong>A lightweight WordPress slider and carousel builder.</strong><br>
-  Create responsive sliders from custom images, blog posts, WooCommerce products, and portfolio projects.</p>
+  Create responsive sliders from custom images, blog posts, selected WordPress pages, WooCommerce products, and portfolio projects.</p>
 </p>
 
 [![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License](https://img.shields.io/badge/License-GPL--2.0%2B-blue)](LICENSE)
 
-[![Download Plugin](https://img.shields.io/badge/⬇%20Download-Plugin%20ZIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrwan-bg/kashida-slider/releases)
+[![Download Plugin](https://img.shields.io/badge/⬇%20Download-Plugin%20ZIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrwan-bg/kashida-slider/releases)\n\n[🌐 **Kashida Plugin Page**](https://kashida.ly/wp-plugins/kashida-slider/) · [▶ **Live Demo**](https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/)
 
 ## Overview
 
@@ -23,7 +23,7 @@ Kashida Slider provides a visual editor and a slider library for building respon
 
 ### Create sliders from custom or dynamic content
 
-Choose between Custom Slider, Dynamic Content Slider, and Carousel Slider. Dynamic sources can display content from your blog, WooCommerce products, or portfolio projects.
+Choose between Custom Slider, Dynamic Content Slider, and Carousel Slider. Dynamic sources can display content from blog posts, selected WordPress pages, WooCommerce products, or portfolio projects. The Selected Pages source supports choosing individual pages and displaying them in hierarchical parent/child order.
 
 ![Dynamic content slider](kashida-slider-screens/Dynamic%20Content%20Slider%20Feature%20Banner.png)
 
@@ -35,7 +35,7 @@ Set the number of visible items for desktop, tablet, and mobile. Use navigation 
 
 ### Flexible slider presentation
 
-Adjust slider appearance with layout presets, typography, colors, overlays, image settings, and transition effects. Preview the design for desktop, tablet, and mobile in the editor.
+Adjust slider appearance with layout presets, typography, colors, overlays, image settings and shapes (including square), image-to-text spacing, outer padding, outer border, card borders, and transition effects. Preview the design for desktop, tablet, and mobile in the editor.
 
 ![Main slider features](kashida-slider-screens/Main%20Slider%20Feature%20Showcase.png)
 
@@ -80,7 +80,7 @@ The feature images above illustrate the plugin’s slider modes, carousel contro
 
 ## Support and contributions
 
-- **Repository:** [mrwan-bg/kashida-slider](https://github.com/mrwan-bg/kashida-slider)
+- **Kashida plugin page:** [View plugin information](https://kashida.ly/wp-plugins/kashida-slider/)\n- **Live demo:** [Try Kashida Slider](https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/)\n- **Repository:** [mrwan-bg/kashida-slider](https://github.com/mrwan-bg/kashida-slider)
 - **Issues:** [Report a bug or request a feature](https://github.com/mrwan-bg/kashida-slider/issues)
 - **⬇️ Download:** [Download the latest plugin ZIP](https://github.com/mrwan-bg/kashida-slider/releases)
 - **Releases:** [View all releases](https://github.com/mrwan-bg/kashida-slider/releases)
