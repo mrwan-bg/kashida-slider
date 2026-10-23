@@ -4,16 +4,23 @@ Tags: slider, carousel, hero, woocommerce, portfolio
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.4.9
+Stable tag: 1.4.16
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Create custom sliders and responsive carousels from images, posts, WooCommerce products and portfolio projects.
+Create responsive WordPress sliders and carousels from custom images, blog posts, selected pages, WooCommerce products, and portfolio projects. Customize layouts, image shapes, spacing, borders, colors, and responsive carousel behavior.
 
 == Description ==
+
+[Visit Kashida Slider](https://kashida.ly/wp-plugins/kashida-slider/) | [View Live Demo](https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/)
+
+Kashida Slider helps you create responsive sliders and carousels with flexible layouts and controls. Use custom slides or dynamic content, including blog posts, selected WordPress pages, portfolio projects, and WooCommerce products. Configure responsive columns, image shapes, card appearance, spacing, navigation, and autoplay from the WordPress admin interface.
 * Three creation modes: Custom Slider, Dynamic Content Slider, and Carousel Slider.
 * Responsive carousel layouts with configurable desktop, tablet, and mobile item counts.
-* Carousel items can be manually created or generated from Blog, WooCommerce, and Portfolio content.
+* Carousel items can be manually created or generated from Blog, Selected Pages, WooCommerce, and Portfolio content.
+* Selected Pages source supports choosing specific pages and presenting them in WordPress page-hierarchy order with parent/child indentation.
+* Dynamic post/page excerpts are cleaned to reduce visible WPBakery shortcode markup while preserving readable text where possible.
+* Additional appearance controls include carousel image shapes (including square), image-to-text spacing, outer padding, outer border, and card borders.
 * Navigation arrows, pagination dots, touch swipe, and autoplay for carousels.
 * Slider Library with search, filters, sorting and quick actions (edit, preview, duplicate, copy shortcode, delete).
 * Built-in Help Center (works offline, no external requests).
@@ -34,6 +41,13 @@ Usage: `[kashida_slider id="123"]`
 `assets/img/kashida-logo.svg` (header) and `assets/img/kashida-mark.svg` (footer and admin menu icon). Replace these files to update the branding.
 
 == Changelog ==
+
+= Upcoming release =
+* Added a Selected Pages content source with hierarchical page display.
+* Improved dynamic content text cleanup to reduce visible WPBakery shortcodes in post and page excerpts.
+* Added controls for outer padding, outer border visibility and styling, and card border visibility and styling.
+* Added square carousel image shape and configurable spacing between images and text.
+
 
 = 1.4.9 =
 * Addressed Plugin Check findings for escaping, translator comments, preview asset loading, AJAX nonce annotations, and text-domain loading.
