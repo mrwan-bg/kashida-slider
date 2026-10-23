@@ -22,6 +22,10 @@
     <img src="https://img.shields.io/badge/▶-Live%20Demo-0969da?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
+## Latest release: 1.4.16
+
+This release adds a **Selected Pages** content source with hierarchical page display, improves cleanup of dynamic post and page text to reduce visible WPBakery shortcodes, and adds more control over carousel spacing, image shape, and borders.
+
 ## Overview
 
 Kashida Slider provides a visual editor and a slider library for building responsive sliders and carousels directly in WordPress. Configure layouts, typography, colors, navigation, and device-specific previews without adding external JavaScript libraries.
@@ -54,6 +58,17 @@ Build a presentation that adapts to different screen sizes while keeping the edi
 
 ![Responsive slider showcase](kashida-slider-screens/Modern%20Responsive%20Slider%20Plugin%20Showcase.png)
 
+## What is new in 1.4.16
+
+- Select individual WordPress pages as a content source and show their parent/child hierarchy.
+- Improve dynamic post/page text cleanup to reduce visible WPBakery shortcode markup.
+- Configure outer padding and the outer border, including visibility, color, and width.
+- Configure card border visibility, color, and width.
+- Use square carousel images (1:1 aspect ratio).
+- Adjust spacing between carousel images and the text below them.
+- Expand Arabic translations for page-selection and related interface controls.
+- Improve the WooCommerce price-ordering query to address a potential slow-query warning.
+
 ## Installation
 
 1. ⬇️ **Download the plugin:** [Get the latest ZIP release](https://github.com/mrwan-bg/kashida-slider/releases).
@@ -80,7 +95,7 @@ Replace `123` with the ID of your slider.
 
 - Responsive layouts and RTL support.
 - Translation-ready with the `kashida-slider` text domain.
-- Includes a partial Arabic translation.
+- Includes Arabic translation files; translation coverage may vary by interface section.
 - No external front-end libraries; front-end assets load on pages using the shortcode.
 
 ## Screenshots
