@@ -215,7 +215,7 @@
 	function renderSource(box) {
 		var S = cfg.source, src = D.sources, type = S.type;
 		var again = function () { renderPanel(true); };
-		var types = (cfg.mode === 'carousel' ? [['custom', T.customItems || 'Custom images and items']] : []).concat([['post', T.post], ['product', T.product], ['portfolio', T.portfolio]]);
+		var types = (cfg.mode === 'carousel' ? [['custom', T.customItems || 'Custom images and items']] : []).concat([['post', T.post], ['pages', T.pages || 'Selected pages'], ['product', T.product], ['portfolio', T.portfolio]]);
 		box.appendChild(sel(T.sourceType, 'type', types, S, function () {
 			var previousType = type;
 			S.terms = {};
@@ -226,6 +226,7 @@
 				state.cur = 0;
 			}
 			S.post_type = S.type === 'portfolio' ? (src.portfolio.suggested || '') : '';
+			if (S.type !== 'pages') { S.page_ids = []; }
 			if (cfg.mode === 'carousel') { state.tab = custom ? 'content' : 'source'; syncSourceUI(); }
 			if (S.type !== 'product' && S.orderby === 'price') { S.orderby = 'date'; }
 			again();
@@ -252,6 +253,39 @@
 		}
 
 		var taxes = {};
+		if (type === 'pages') {
+			var pageItems = (src.pages && src.pages.items) ? src.pages.items : [];
+			var selected = Array.isArray(S.page_ids) ? S.page_ids.map(Number) : [];
+			var search = h('input', { type: 'search', class: 'regular-text', placeholder: T.pageSearch || 'Search pages by title', 'aria-label': T.pageSearch || 'Search pages by title' });
+			var list = h('div', { class: 'ks-page-picker' });
+			function drawPages() {
+				list.textContent = '';
+				var q = search.value.toLowerCase();
+				var matches = pageItems.filter(function (page) { return page.title.toLowerCase().indexOf(q) !== -1; });
+				if (!matches.length) { list.appendChild(h('p', { class: 'description', text: T.pageNone || 'No published pages match your search.' })); }
+				matches.forEach(function (page) {
+					var id = Number(page.id), cb = h('input', { type: 'checkbox', checked: selected.indexOf(id) !== -1, onchange: function (e) { if (e.target.checked && selected.indexOf(id) === -1) { selected.push(id); } else if (!e.target.checked) { selected = selected.filter(function (x) { return x !== id; }); } S.page_ids = selected.slice(); changed(); drawPages(); } });
+					list.appendChild(h('label', { class: 'ks-page-option' + (page.depth ? ' ks-page-option-child' : '') }, [cb, h('span', { class: 'ks-page-tree-title', text: (page.depth ? ('— '.repeat(Math.min(Number(page.depth), 8))) : '') + page.title })]));
+				});
+			}
+			search.addEventListener('input', drawPages);
+			box.appendChild(h('p', { class: 'description', text: T.pageHelp || 'Select pages and use the arrows to set their display order.' }));
+			box.appendChild(h('div', { class: 'ks-field' }, [h('label', { text: T.pageSearch || 'Search pages by title' }), search]));
+			box.appendChild(list);
+			var orderBox = h('div', { class: 'ks-selected-pages' });
+			function drawOrder() {
+				orderBox.textContent = '';
+				orderBox.appendChild(h('strong', { text: (T.pageSelected || 'Selected pages') + ': ' + selected.length }));
+				selected.forEach(function (id, index) {
+					var page = pageItems.find(function (p) { return Number(p.id) === id; });
+					if (!page) { return; }
+					var up = h('button', { type: 'button', class: 'button', text: '↑', title: T.moveUp || 'Move up', disabled: index === 0, onclick: function () { var a = selected[index - 1]; selected[index - 1] = selected[index]; selected[index] = a; S.page_ids = selected.slice(); changed(); drawPages(); drawOrder(); } });
+					var down = h('button', { type: 'button', class: 'button', text: '↓', title: T.moveDown || 'Move down', disabled: index === selected.length - 1, onclick: function () { var a = selected[index + 1]; selected[index + 1] = selected[index]; selected[index] = a; S.page_ids = selected.slice(); changed(); drawPages(); drawOrder(); } });
+					orderBox.appendChild(h('div', { class: 'ks-selected-page' }, [h('span', { text: (index + 1) + '. ' + page.title }), up, down]));
+				});
+			}
+			drawPages(); drawOrder(); box.appendChild(orderBox);
+		}
 		if (type === 'product' && !src.product.available) {
 			box.appendChild(h('div', { class: 'notice notice-warning inline' }, [h('p', { text: T.wooMissing })]));
 			return;

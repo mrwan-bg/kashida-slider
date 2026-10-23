@@ -217,3 +217,10 @@
 .ks-main{align-self:start}
 .ks-frame-wrap{overflow:hidden;max-height:none!important;flex-shrink:0}
 .ks-frame{max-height:none!important}
+
+/* Manually selected page source */
+.ks-page-picker{max-height:260px;overflow:auto;border:1px solid #dcdcde;border-radius:6px;background:#fff;padding:6px;margin:8px 0 14px}.ks-page-option{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:4px;cursor:pointer}.ks-page-option:hover{background:#f6f7f7}.ks-page-option input{margin:0}.ks-selected-pages{display:grid;gap:6px;margin-top:12px}.ks-selected-page{display:flex;align-items:center;gap:6px;padding:7px 8px;border:1px solid #dcdcde;border-radius:5px;background:#fff}.ks-selected-page span{flex:1;min-width:0}.ks-selected-page .button{min-width:30px;padding:0 7px}
+
+/* Hierarchical page picker */
+.ks-page-option-child { padding-inline-start: 24px; border-inline-start: 2px solid #dcdcde; margin-inline-start: 8px; }
+.ks-page-tree-title { display: inline-block; }

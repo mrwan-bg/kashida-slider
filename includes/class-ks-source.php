@@ -54,6 +54,45 @@ final class KS_Source {
 		return $out;
 	}
 
+	/** Published pages in WordPress menu order, including their hierarchy for the editor tree. */
+	private static function published_pages() {
+		$pages = get_pages( array(
+			'post_status' => 'publish',
+			'sort_column' => 'menu_order,post_title',
+			'sort_order'  => 'ASC',
+			'hierarchical' => true,
+			'parent' => 0,
+		) );
+		$out = array();
+		$append_tree = static function ( $items, $parent_id, $depth ) use ( &$append_tree, &$out ) {
+			foreach ( $items as $page ) {
+				if ( (int) $page->post_parent !== (int) $parent_id ) {
+					continue;
+				}
+				$out[] = array(
+					'id'     => (int) $page->ID,
+					'title'  => wp_strip_all_tags( get_the_title( $page ) ),
+					'parent' => (int) $page->post_parent,
+					'depth'  => (int) $depth,
+				);
+				$children = array_values( array_filter( $items, static function ( $candidate ) use ( $page ) {
+					return (int) $candidate->post_parent === (int) $page->ID;
+				} ) );
+				if ( $children ) {
+					$append_tree( $children, $page->ID, $depth + 1 );
+				}
+			}
+		};
+		$all_pages = get_pages( array(
+			'post_status' => 'publish',
+			'sort_column' => 'menu_order,post_title',
+			'sort_order'  => 'ASC',
+			'hierarchical' => false,
+		) );
+		$append_tree( $all_pages, 0, 0 );
+		return $out;
+	}
+
 	public static function taxonomies_for( $post_type, $limit = 200 ) {
 		$out = array();
 		foreach ( get_object_taxonomies( $post_type, 'objects' ) as $tax => $obj ) {
@@ -77,6 +116,7 @@ final class KS_Source {
 	public static function editor_data() {
 		$data = array(
 			'post'      => array( 'available' => true, 'taxes' => self::taxonomies_for( 'post' ) ),
+			'pages'     => array( 'available' => true, 'items' => self::published_pages() ),
 			'product'   => array( 'available' => self::woo_active(), 'taxes' => self::woo_active() ? self::taxonomies_for( 'product' ) : array() ),
 			'portfolio' => array( 'available' => false, 'types' => array(), 'suggested' => '' ),
 		);
@@ -97,6 +137,8 @@ final class KS_Source {
 		switch ( $source['type'] ) {
 			case 'product':
 				return self::woo_active() ? 'product' : '';
+			case 'pages':
+				return 'page';
 			case 'portfolio':
 				$pt = $source['post_type'];
 				return $pt && isset( self::portfolio_types()[ $pt ] ) ? $pt : '';
@@ -127,6 +169,12 @@ final class KS_Source {
 	}
 
 	private static function fetch( $pt, $source ) {
+		if ( 'pages' === $source['type'] ) {
+			$ids = array_values( array_unique( array_filter( array_map( 'absint', (array) $source['page_ids'] ) ) ) );
+			if ( ! $ids ) { return array(); }
+			$valid = get_posts( array( 'post_type' => 'page', 'post_status' => 'publish', 'post__in' => $ids, 'numberposts' => count( $ids ), 'orderby' => 'post__in' ) );
+			return self::normalise_items( $valid, $source, 'page' );
+		}
 		$args = array(
 			'post_type'              => $pt,
 			'post_status'            => 'publish',
@@ -138,8 +186,16 @@ final class KS_Source {
 			'update_post_term_cache' => false,
 		);
 		if ( 'price' === $source['orderby'] && 'product' === $pt ) {
-			$args['meta_key'] = '_price';
-			$args['orderby']  = 'meta_value_num';
+			// Use a named meta_query clause for numeric price sorting instead of meta_key.
+			// This avoids the WordPress Coding Standards slow_db_query_meta_key warning.
+			$args['meta_query'] = array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query -- Required to sort WooCommerce products by numeric price.
+				'ks_price_clause' => array(
+					'key'     => '_price',
+					'compare' => 'EXISTS',
+					'type'    => 'NUMERIC',
+				),
+			);
+			$args['orderby'] = array( 'ks_price_clause' => 'NUMERIC' );
 		} elseif ( 'menu_order' === $source['orderby'] ) {
 			$args['orderby'] = 'menu_order date';
 		} else {
@@ -160,8 +216,13 @@ final class KS_Source {
 		}
 
 		$query = new WP_Query( $args );
+		return self::normalise_items( $query->posts, $source, $pt );
+	}
+
+	/** Build clean slider data from WordPress posts without exposing builder shortcodes. */
+	private static function normalise_items( $posts, $source, $pt ) {
 		$items = array();
-		foreach ( $query->posts as $post ) {
+		foreach ( $posts as $post ) {
 			$item = array(
 				'id'      => $post->ID,
 				'title'   => wp_strip_all_tags( get_the_title( $post ) ),
@@ -172,8 +233,24 @@ final class KS_Source {
 				'iso'     => get_the_date( 'c', $post ),
 				'price'   => '',
 			);
-			$text            = $post->post_excerpt ? $post->post_excerpt : $post->post_content;
-			$item['excerpt'] = wp_trim_words( wp_strip_all_tags( strip_shortcodes( $text ) ), (int) $source['excerpt_words'], '…' );
+			$text = trim( (string) $post->post_excerpt );
+			if ( '' === $text ) {
+				$text = (string) $post->post_content;
+			}
+
+			/*
+			 * Extract readable text from post/page content. Remove WPBakery wrapper
+			 * shortcodes first (rather than deleting their enclosed text), then
+			 * remove remaining registered shortcodes and block markup. This runs
+			 * only on the generated slider excerpt; the original post is untouched.
+			 */
+			$text = preg_replace( '/\[\/?(?:vc_[a-z0-9_]+|vc_[a-z0-9_-]+)(?:\s+[^\]]*)?\]/i', ' ', $text );
+			$text = strip_shortcodes( $text );
+			$text = preg_replace( '/<!--\\s*\\/?wp:[^>]*-->/i', ' ', $text );
+			$text = wp_strip_all_tags( $text, true );
+			$text = html_entity_decode( $text, ENT_QUOTES, get_bloginfo( 'charset' ) ? get_bloginfo( 'charset' ) : 'UTF-8' );
+			$text = trim( preg_replace( '/\\s+/u', ' ', $text ) );
+			$item['excerpt'] = wp_trim_words( $text, (int) $source['excerpt_words'], '…' );
 			if ( 'product' === $pt ) {
 				$product = wc_get_product( $post->ID );
 				if ( ! $product ) {

@@ -107,13 +107,14 @@
 /* Responsive carousel layouts */
 .ks-carousel,.ks-carousel *{box-sizing:border-box}
 .ks-carousel{position:relative;width:100%;max-width:100%;direction:ltr;margin:0;padding:0}
+.ks-carousel{padding:var(--ks-slider-padding,0)!important;border:var(--ks-slider-border-width,0) solid var(--ks-slider-border-color,#ddd);border-radius:var(--ks-slider-radius,0);}
 .ks-carousel-toolbar{display:flex;justify-content:flex-end;gap:8px;margin-block-end:10px}
 .ks-carousel-toolbar button{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #dcdcde;border-radius:50%;background:#fff;color:#1d2327;font-size:20px;line-height:1;cursor:pointer}
 .ks-carousel-toolbar button:hover{background:#F05C41;border-color:#F05C41;color:#fff}
 .ks-carousel-track{display:flex;align-items:stretch;gap:var(--ks-cgap,18px);overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-ms-overflow-style:none;scroll-behavior:smooth;padding:2px 1px 2px;overscroll-behavior-inline:contain;touch-action:pan-x pan-y; -webkit-overflow-scrolling:touch}
 .ks-carousel-track:focus-visible{outline:2px solid #F05C41;outline-offset:2px}
 .ks-carousel-track::-webkit-scrollbar{display:none;width:0;height:0}
-.ks-carousel-item{flex:0 0 calc((100% - (var(--ks-cv-d,4) - 1)*var(--ks-cgap,18px))/var(--ks-cv-d,4));min-width:0;overflow:hidden;border:1px solid #e2e4e7;border-radius:10px;background:#fff;color:#1d2327;scroll-snap-align:start;display:flex;flex-direction:column;text-align:start}
+.ks-carousel-item{flex:0 0 calc((100% - (var(--ks-cv-d,4) - 1)*var(--ks-cgap,18px))/var(--ks-cv-d,4));min-width:0;overflow:hidden;border:var(--ks-card-border-width,1px) solid var(--ks-card-border-color,#e2e4e7);border-radius:var(--ks-carousel-radius,10px);background:#fff;color:#1d2327;scroll-snap-align:start;display:flex;flex-direction:column;text-align:start}
 .ks-carousel-image-link{display:block;line-height:0}
 .ks-carousel-card-image{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#f0f0f1}
 .ks-carousel-no-image{background:linear-gradient(135deg,#f0f0f1,#dcdcde)}
@@ -171,6 +172,12 @@
 .ks-carousel .ks-carousel-prev{inset-inline-start:8px}
 .ks-carousel .ks-carousel-next{inset-inline-end:8px}
 .ks-carousel .ks-carousel-dots{position:relative;z-index:2}
+.ks-carousel-shape-square .ks-carousel-media{width:min(100%,260px);aspect-ratio:1/1;border-radius:0;margin-inline:auto}
+.ks-carousel-shape-square .ks-carousel-card-image{width:100%;height:100%;aspect-ratio:1/1;border-radius:0;object-fit:cover}
+.ks-carousel-shape-square .ks-carousel-no-image{width:100%;height:100%;min-height:0;border-radius:0;aspect-ratio:1/1}
+.ks-carousel-shape-square .ks-carousel-media picture{width:100%;height:100%}
+.ks-carousel-shape-square .ks-carousel-image-link{width:100%;height:100%}
+.ks-carousel-shape-square .ks-carousel-image-link img{height:100%}
 .ks-carousel-shape-circle .ks-carousel-media{width:min(100%,260px);aspect-ratio:1/1;border-radius:50%;margin-inline:auto}
 .ks-carousel-shape-circle .ks-carousel-card-image{width:100%;height:100%;aspect-ratio:1/1;border-radius:50%;object-fit:cover}
 .ks-carousel-shape-circle .ks-carousel-no-image{width:100%;height:100%;min-height:0;border-radius:50%;aspect-ratio:1/1}
@@ -183,3 +190,6 @@
 /* v1.3.8: configurable radius for all slider containers */
 .ks-slider,.ks-carousel{border-radius:var(--ks-slider-radius,0px)}
 .ks-slider{clip-path:inset(0 round var(--ks-slider-radius,0px))}
+
+/* Configurable spacing between carousel image and text */
+.ks-carousel{--ks-image-text-gap:8px}.ks-carousel-media{margin-bottom:var(--ks-image-text-gap)}.ks-carousel-body{padding-top:0}

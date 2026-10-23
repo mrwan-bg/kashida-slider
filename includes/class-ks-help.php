@@ -110,6 +110,15 @@ final class KS_Help {
 							__( 'Posts without a featured image use the fallback image if you set one.', 'kashida-slider' ),
 						) ),
 					) ),
+					array( __( 'Selected WordPress pages', 'kashida-slider' ), array(
+						self::p( __( 'Choose Selected pages as the content source to build a slider from specific published WordPress pages instead of automatically fetching the latest posts.', 'kashida-slider' ) ),
+						self::ul( array(
+							__( 'Search pages by title, then tick the pages you want to include. The page picker displays parent and child pages with indentation to reflect the WordPress page hierarchy.', 'kashida-slider' ),
+							__( 'Use the up and down arrows in the selected-pages list to control the display order. This order is saved with the slider.', 'kashida-slider' ),
+							__( 'Only published pages are offered. Pages in different languages are separate WordPress pages; select the language-specific page IDs you want to display.', 'kashida-slider' ),
+							__( 'Page titles, featured images, links and text excerpts are taken from the selected pages. The original page content is not modified.', 'kashida-slider' ),
+						) ),
+					) ),
 					array( __( 'WooCommerce products', 'kashida-slider' ), array(
 						self::p( __( 'WooCommerce must be installed and active; otherwise the product source shows a notice and no products are displayed.', 'kashida-slider' ) ),
 						self::ul( array(
@@ -137,6 +146,10 @@ final class KS_Help {
 						self::p( __( 'Choose Carousel Slider when creating a new slider. In the Source tab, select Custom images and items to add your own cards, or select Blog, WooCommerce or Portfolio to retrieve published content automatically.', 'kashida-slider' ) ),
 						self::p( __( 'Use the Layout tab to select a card style, set the total number of dynamic items in Source, and configure how many cards appear on desktop, tablet and mobile. The gap setting controls spacing between cards.', 'kashida-slider' ) ),
 						self::p( __( 'Arrows, pagination dots, autoplay, swipe and keyboard focus are supported where applicable. The carousel adapts to the available width and keeps each item independently linked.', 'kashida-slider' ) ),
+						self::p( __( 'In Layout, set outer padding to add space inside the carousel container. Enable or disable the outer border independently from card borders, and configure each border color and width. Set card corner radius separately.', 'kashida-slider' ) ),
+						self::p( __( 'Carousel image shape supports Rectangle, Square (1:1) and Circle. Use Image to text spacing to control the gap between each image and its title or text. Set the gap between cards and the number of visible cards independently for desktop, tablet and mobile.', 'kashida-slider' ) ),
+						self::p( __( 'In Layout, set outer padding to add space inside the carousel container. Enable or disable the outer border independently from card borders, and configure each border color and width. Set card corner radius separately.', 'kashida-slider' ) ),
+						self::p( __( 'Carousel image shape supports Rectangle, Square (1:1) and Circle. Use Image to text spacing to control the gap between each image and its title or text. Set the gap between cards and the number of visible cards independently for desktop, tablet and mobile.', 'kashida-slider' ) ),
 					) ),
 				),
 			),

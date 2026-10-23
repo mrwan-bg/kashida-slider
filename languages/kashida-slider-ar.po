@@ -17,7 +17,7 @@ msgstr ""
 
 #, python-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (نسخة)"
 
 msgid ""
 "A Custom slider is built slide by slide: you choose every image, heading, text and button "
@@ -39,7 +39,7 @@ msgid "A lightweight visual slider builder for custom and dynamic content."
 msgstr "منشئ سلايدر مرئي خفيف للمحتوى المخصص والديناميكي."
 
 msgid "A short description for this slide."
-msgstr ""
+msgstr "وصف مختصر لهذه الشريحة."
 
 msgid "A slider must keep at least one slide."
 msgstr "يجب أن يحتوي السلايدر على شريحة واحدة على الأقل."
@@ -61,7 +61,7 @@ msgstr "أضف كتلة الرمز المختصر إلى الصفحة، ثم أ�
 msgid ""
 "Add at least two slides (or make sure the source returns two or more items) to preview a "
 "transition."
-msgstr ""
+msgstr "أضف شريحتين على الأقل (أو تأكد من أن المصدر يعرض عنصرين أو أكثر) لمعاينة الانتقال."
 
 msgid "Add slide"
 msgstr "إضافة شريحة"
@@ -113,7 +113,7 @@ msgid "Background"
 msgstr "الخلفية"
 
 msgid "Background fill"
-msgstr ""
+msgstr "تعبئة الخلفية"
 
 msgid "Background image"
 msgstr "صورة الخلفية"
@@ -122,7 +122,7 @@ msgid "Background images"
 msgstr "صور الخلفية"
 
 msgid "Behind text area only"
-msgstr ""
+msgstr "خلف منطقة النص فقط"
 
 msgid "Block editor"
 msgstr "محرر الكتل"
@@ -137,13 +137,13 @@ msgid "Blog posts, WooCommerce products and portfolio-type custom post types."
 msgstr "مقالات المدونة ومنتجات WooCommerce وأنواع المحتوى المخصص الخاصة بمعرض الأعمال."
 
 msgid "Bold"
-msgstr ""
+msgstr "عريض"
 
 msgid "Border radius (px)"
-msgstr ""
+msgstr "استدارة الزوايا (بكسل)"
 
 msgid "Bottom"
-msgstr ""
+msgstr "أسفل"
 
 msgid "Breadcrumb"
 msgstr "مسار التنقل"
@@ -151,7 +151,7 @@ msgstr "مسار التنقل"
 msgid ""
 "Build a custom slider slide by slide, or generate slides automatically from your posts, products "
 "or portfolio."
-msgstr ""
+msgstr "أنشئ سلايدر مخصصًا شريحةً تلو الأخرى، أو أنشئ الشرائح تلقائيًا من المقالات أو المنتجات أو مشاريع معرض الأعمال."
 
 msgid "Button"
 msgstr "الزر"
@@ -164,10 +164,10 @@ msgstr ""
 "/contact."
 
 msgid "Button label (blank = default)"
-msgstr ""
+msgstr "نص الزر (اتركه فارغًا لاستخدام الافتراضي)"
 
 msgid "Button text size (px)"
-msgstr ""
+msgstr "حجم نص الزر (بكسل)"
 
 msgid "Buttons"
 msgstr "الأزرار"
@@ -176,7 +176,7 @@ msgid "Buttons: colors, outline or solid secondary style, corner radius and text
 msgstr "الأزرار: الألوان ونمط الزر الثانوي (محدد الإطار أو ممتلئ) واستدارة الزوايا وحجم النص."
 
 msgid "Cache duration (minutes, 0 = off)"
-msgstr ""
+msgstr "مدة التخزين المؤقت (بالدقائق، 0 = إيقاف)"
 
 msgid "Can I edit or delete a slider later?"
 msgstr "هل يمكن تعديل السلايدر أو حذفه لاحقًا؟"
@@ -210,7 +210,7 @@ msgid "Choose \"Portfolio projects\", then select the portfolio post type."
 msgstr "اختر «مشاريع معرض الأعمال»، ثم حدّد نوع المحتوى الخاص بالمشاريع."
 
 msgid "Choose an image"
-msgstr ""
+msgstr "اختيار صورة"
 
 msgid "Click \"Add slide\" in the toolbar to add a slide."
 msgstr "اضغط «إضافة شريحة» في شريط الأدوات لإضافة شريحة."
@@ -240,16 +240,16 @@ msgid "Content"
 msgstr "المحتوى"
 
 msgid "Content source"
-msgstr "مصدر المحتوى"
+msgstr 'مصدر المحتوى'
 
 msgid "Content spacing (px)"
-msgstr ""
+msgstr "المسافة بين عناصر المحتوى (بكسل)"
 
 msgid "Copied!"
 msgstr "تم النسخ!"
 
 msgid "Copy"
-msgstr ""
+msgstr "نسخ"
 
 msgid "Copy Shortcode"
 msgstr "نسخ الشورت كود"
@@ -276,7 +276,7 @@ msgid "Created"
 msgstr "تاريخ الإنشاء"
 
 msgid "Creation mode"
-msgstr ""
+msgstr "وضع الإنشاء"
 
 msgid "Crossfade"
 msgstr "تلاشي متقاطع"
@@ -319,13 +319,13 @@ msgid "Description"
 msgstr "الوصف"
 
 msgid "Description color"
-msgstr ""
+msgstr "لون الوصف"
 
 msgid "Description size (px)"
-msgstr ""
+msgstr "حجم الوصف (بكسل)"
 
 msgid "Description weight"
-msgstr ""
+msgstr "سماكة خط الوصف"
 
 msgid "Design each slide manually: images, text, buttons and layouts."
 msgstr "صمّم كل شريحة يدوياً: الصور والنصوص والأزرار والتخطيطات."
@@ -369,7 +369,7 @@ msgstr "لا تعرض السلايدرات الديناميكية أي محتو�
 msgid ""
 "Dynamic slides use these design settings for every item. Text and images come from your content "
 "automatically."
-msgstr ""
+msgstr "تستخدم الشرائح الديناميكية إعدادات التصميم هذه لكل عنصر، وتُجلب النصوص والصور تلقائيًا من المحتوى."
 
 msgid ""
 "Each thumbnail below the preview has buttons to move it earlier or later, duplicate it, or delete"
@@ -393,7 +393,7 @@ msgstr "تعديل"
 
 #, python-format
 msgid "Edit %s"
-msgstr ""
+msgstr "تعديل %s"
 
 msgid "Edit Slider"
 msgstr "تعديل السلايدر"
@@ -405,7 +405,7 @@ msgid "Enable WP_DEBUG and open your browser console to look for errors from oth
 msgstr "فعّل WP_DEBUG وافتح وحدة تحكم المتصفح للبحث عن أخطاء من السكربتات الأخرى."
 
 msgid "End"
-msgstr ""
+msgstr "النهاية"
 
 msgid ""
 "Every slider has its own shortcode, shown on its card in the Slider Library and in the editor "
@@ -418,10 +418,10 @@ msgid "Excerpt"
 msgstr "المقتطف"
 
 msgid "Excerpt length (words)"
-msgstr ""
+msgstr "طول المقتطف (كلمة)"
 
 msgid "Extra bold"
-msgstr ""
+msgstr "عريض جدًا"
 
 msgid "FAQ"
 msgstr "الأسئلة الشائعة"
@@ -430,22 +430,22 @@ msgid "Fade"
 msgstr "تلاشي"
 
 msgid "Fallback image (used when an item has no featured image)"
-msgstr ""
+msgstr "الصورة البديلة (تُستخدم عند عدم وجود صورة بارزة)"
 
 msgid "Fields to show"
-msgstr ""
+msgstr "الحقول المعروضة"
 
 msgid "Filter by terms"
-msgstr ""
+msgstr "تصفية حسب المصطلحات"
 
 msgid "Find and copy your shortcode"
 msgstr "العثور على الرمز المختصر ونسخه"
 
 msgid "Focal point X (%)"
-msgstr ""
+msgstr "موضع التركيز الأفقي X (%)"
 
 msgid "Focal point Y (%)"
-msgstr ""
+msgstr "موضع التركيز الرأسي Y (%)"
 
 msgid "Full background"
 msgstr "الخلفية بالكامل"
@@ -458,25 +458,25 @@ msgid "Go to slide %d"
 msgstr "انتقل إلى الشريحة %d"
 
 msgid "Gradient"
-msgstr ""
+msgstr "تدرّج لوني"
 
 msgid "Gradient angle"
-msgstr ""
+msgstr "زاوية التدرّج"
 
 msgid "Gradient end color"
-msgstr ""
+msgstr "لون نهاية التدرّج"
 
 msgid "Heading"
 msgstr "العنوان الرئيسي"
 
 msgid "Heading color"
-msgstr ""
+msgstr "لون العنوان"
 
 msgid "Heading size (px)"
-msgstr ""
+msgstr "حجم العنوان (بكسل)"
 
 msgid "Heading weight"
-msgstr ""
+msgstr "سماكة خط العنوان"
 
 msgid "Headings, descriptions and buttons"
 msgstr "العناوين والأوصاف والأزرار"
@@ -517,16 +517,16 @@ msgid "Image"
 msgstr "الصورة"
 
 msgid "Image at bottom"
-msgstr ""
+msgstr "الصورة في الأسفل"
 
 msgid "Image on top"
-msgstr ""
+msgstr "الصورة في الأعلى"
 
 msgid "Image side (Split)"
-msgstr ""
+msgstr "موضع الصورة (التقسيم)"
 
 msgid "Image sizing"
-msgstr ""
+msgstr "حجم عرض الصورة"
 
 msgid "Images do not display"
 msgstr "الصور لا تظهر"
@@ -550,7 +550,7 @@ msgid "Installed version"
 msgstr "الإصدار المثبت"
 
 msgid "Invalid data received."
-msgstr ""
+msgstr "تم استلام بيانات غير صالحة."
 
 msgid "Is the slider responsive?"
 msgstr "هل السلايدر متجاوب؟"
@@ -585,7 +585,7 @@ msgid "Kashida Slider requires PHP 7.4+ and WordPress 6.0+."
 msgstr "تتطلب كشيدة سلايدر PHP 7.4 فأعلى وووردبريس 6.0 فأعلى."
 
 msgid "Kashida Slider: no published content matches this slider's source settings."
-msgstr ""
+msgstr "Kashida Slider: لا يوجد محتوى منشور يطابق إعدادات مصدر هذا السلايدر."
 
 msgid "Kashida Slider: this slider does not exist or was deleted."
 msgstr "كشيدة سلايدر: هذا السلايدر غير موجود أو تم حذفه."
@@ -597,7 +597,7 @@ msgid "Layout also controls text alignment, vertical position, maximum text widt
 msgstr "يتحكم التخطيط أيضًا في محاذاة النص وموضعه الرأسي وأقصى عرض له والمسافة بين عناصر المحتوى."
 
 msgid "Layout preset"
-msgstr ""
+msgstr "نمط التخطيط"
 
 msgid ""
 "Layout: Hero Overlay (text over a full image), Split (text on one side, image on the other) or "
@@ -626,19 +626,19 @@ msgstr ""
 "التخزين المؤقت إن وجدت."
 
 msgid "Maximum number of slides reached."
-msgstr ""
+msgstr "تم بلوغ الحد الأقصى لعدد الشرائح."
 
 msgid "Maximum text width (px)"
-msgstr ""
+msgstr "أقصى عرض للنص (بكسل)"
 
 msgid "Medium"
-msgstr ""
+msgstr "متوسط"
 
 msgid "Menu order"
-msgstr ""
+msgstr "ترتيب القائمة"
 
 msgid "Middle"
-msgstr ""
+msgstr "الوسط"
 
 msgid "Minimal"
 msgstr "بسيط"
@@ -647,22 +647,22 @@ msgid "Mobile"
 msgstr "الجوال"
 
 msgid "Mobile background image (optional)"
-msgstr ""
+msgstr "صورة خلفية الهاتف (اختياري)"
 
 msgid "Mobile: alignment"
-msgstr ""
+msgstr "الهاتف: المحاذاة"
 
 msgid "Mobile: button text size (px)"
-msgstr ""
+msgstr "الهاتف: حجم نص الزر (بكسل)"
 
 msgid "Mobile: content spacing (px)"
-msgstr ""
+msgstr "الهاتف: المسافة بين عناصر المحتوى (بكسل)"
 
 msgid "Mobile: description size (px)"
-msgstr ""
+msgstr "الهاتف: حجم الوصف (بكسل)"
 
 msgid "Mobile: heading size (px)"
-msgstr ""
+msgstr "الهاتف: حجم العنوان (بكسل)"
 
 msgid "Modified"
 msgstr "تاريخ التعديل"
@@ -686,12 +686,12 @@ msgid "Next slide"
 msgstr "الشريحة التالية"
 
 msgid "No categories or tags available for this source."
-msgstr ""
+msgstr "لا تتوفر تصنيفات أو وسوم لهذا المصدر."
 
 msgid ""
 "No portfolio-type content was found. Your theme or plugin must register a public custom post type"
 " (for example \"portfolio\"). Please choose another source."
-msgstr ""
+msgstr "لم يتم العثور على محتوى من نوع معرض الأعمال. يجب أن يوفّر القالب أو الإضافة نوع محتوى مخصصًا عامًا (مثل \"portfolio\"). يُرجى اختيار مصدر آخر."
 
 msgid "No sliders match your search"
 msgstr "لا توجد سلايدرات مطابقة لبحثك"
@@ -705,7 +705,7 @@ msgid ""
 msgstr "لا. يُحدد النمط عند إنشاء السلايدر. أنشئ سلايدر جديدًا بالنمط الآخر ويمكنك الاحتفاظ بالأصلي."
 
 msgid "None"
-msgstr ""
+msgstr "بدون"
 
 msgid "Number of items"
 msgstr "عدد العناصر"
@@ -724,10 +724,10 @@ msgid "Open Kashida Slider → Create New Slider."
 msgstr "افتح كشيدة سلايدر ← إنشاء سلايدر جديد."
 
 msgid "Open primary button in a new tab"
-msgstr ""
+msgstr "فتح الزر الأساسي في علامة تبويب جديدة"
 
 msgid "Open secondary button in a new tab"
-msgstr ""
+msgstr "فتح الزر الثانوي في علامة تبويب جديدة"
 
 msgid ""
 "Open the Content tab to edit the heading and description, and to set the label and destination "
@@ -747,13 +747,13 @@ msgid "Original size"
 msgstr "الحجم الأصلي"
 
 msgid "Outline"
-msgstr ""
+msgstr "محدد بإطار"
 
 msgid "Overlay color"
-msgstr ""
+msgstr "لون التراكب"
 
 msgid "Overlay opacity (%)"
-msgstr ""
+msgstr "شفافية التراكب (%)"
 
 msgid "Paste the shortcode and update the page."
 msgstr "ألصق الرمز المختصر ثم حدّث الصفحة."
@@ -773,7 +773,7 @@ msgstr "جارٍ التشغيل…"
 msgid ""
 "Plays the selected effect on the preview. Nothing is saved and the slider returns to its starting"
 " slide."
-msgstr ""
+msgstr "يشغّل التأثير المحدد في المعاينة. لا يتم حفظ أي تغيير، ويعود السلايدر إلى الشريحة الأولى بعد انتهاء المعاينة."
 
 msgid "Plugin information"
 msgstr "معلومات الإضافة"
@@ -791,7 +791,7 @@ msgid "Portfolio categories are missing"
 msgstr "تصنيفات معرض الأعمال غير موجودة"
 
 msgid "Portfolio post type"
-msgstr ""
+msgstr "نوع محتوى معرض الأعمال"
 
 msgid "Portfolio projects"
 msgstr "مشاريع معرض الأعمال"
@@ -815,7 +815,7 @@ msgid "Preview Animation"
 msgstr "معاينة الحركة"
 
 msgid "Preview could not be loaded."
-msgstr ""
+msgstr "تعذّر تحميل المعاينة."
 
 msgid "Previous slide"
 msgstr "الشريحة السابقة"
@@ -824,19 +824,19 @@ msgid "Price"
 msgstr "السعر"
 
 msgid "Price (with sale price)"
-msgstr ""
+msgstr "السعر (مع سعر التخفيض)"
 
 msgid "Primary background"
-msgstr ""
+msgstr "خلفية الزر الأساسي"
 
 msgid "Primary button URL"
-msgstr ""
+msgstr "رابط الزر الأساسي"
 
 msgid "Primary button label"
-msgstr ""
+msgstr "نص الزر الأساسي"
 
 msgid "Primary text color"
-msgstr ""
+msgstr "لون النص الأساسي"
 
 msgid ""
 "Problems that go away when you change a setting or content are configuration issues. A PHP error "
@@ -858,7 +858,7 @@ msgstr ""
 " بالمشاريع."
 
 msgid "Publication date"
-msgstr ""
+msgstr "تاريخ النشر"
 
 msgid "Push"
 msgstr "دفع"
@@ -879,7 +879,7 @@ msgid "Read the Help Center"
 msgstr "اقرأ مركز المساعدة"
 
 msgid "Regular"
-msgstr ""
+msgstr "عادي"
 
 msgid "Remove"
 msgstr "إزالة"
@@ -906,13 +906,13 @@ msgid "Responsive layout problems"
 msgstr "مشكلات التخطيط المتجاوب"
 
 msgid "Results refresh automatically when content changes."
-msgstr ""
+msgstr "تُحدّث النتائج تلقائيًا عند تغيير المحتوى."
 
 msgid "Right"
 msgstr "يمين"
 
 msgid "Same as larger screen"
-msgstr ""
+msgstr "مثل الشاشة الأكبر"
 
 msgid "Save"
 msgstr "حفظ"
@@ -930,22 +930,22 @@ msgid "Search by name…"
 msgstr "ابحث بالاسم…"
 
 msgid "Search sliders by name"
-msgstr ""
+msgstr "البحث عن السلايدرات بالاسم"
 
 msgid "Secondary border / background"
-msgstr ""
+msgstr "إطار / خلفية الزر الثانوي"
 
 msgid "Secondary button URL"
-msgstr ""
+msgstr "رابط الزر الثانوي"
 
 msgid "Secondary button label (optional)"
-msgstr ""
+msgstr "نص الزر الثانوي (اختياري)"
 
 msgid "Secondary style"
-msgstr ""
+msgstr "نمط الزر الثانوي"
 
 msgid "Secondary text color"
-msgstr ""
+msgstr "لون النص الثانوي"
 
 msgid "Select image"
 msgstr "اختيار صورة"
@@ -968,7 +968,7 @@ msgstr ""
 "أو احتواء أو الحجم الأصلي."
 
 msgid "Semi-bold"
-msgstr ""
+msgstr "شبه عريض"
 
 msgid "Set the number of posts (1–20), then sort by date, title or menu order, ascending or descending."
 msgstr ""
@@ -1032,25 +1032,25 @@ msgid "Slider duplicated."
 msgstr "تم تكرار السلايدر."
 
 msgid "Slider height: desktop (px)"
-msgstr ""
+msgstr "ارتفاع السلايدر: الحاسوب (بكسل)"
 
 msgid "Slider height: mobile (px)"
-msgstr ""
+msgstr "ارتفاع السلايدر: الهاتف (بكسل)"
 
 msgid "Slider height: tablet (px)"
-msgstr ""
+msgstr "ارتفاع السلايدر: الجهاز اللوحي (بكسل)"
 
 msgid "Slider name"
 msgstr "اسم السلايدر"
 
 msgid "Slider not found."
-msgstr ""
+msgstr "لم يتم العثور على السلايدر."
 
 msgid "Slider type"
 msgstr "نوع السلايدر"
 
 msgid "Sliders"
-msgstr ""
+msgstr "السلايدرات"
 
 msgid "Slides"
 msgstr "الشرائح"
@@ -1059,10 +1059,10 @@ msgid "Slides are generated automatically from blog posts, WooCommerce products 
 msgstr "تُنشأ الشرائح تلقائياً من مقالات المدونة أو منتجات ووكومرس أو مشاريع معرض الأعمال."
 
 msgid "Solid"
-msgstr ""
+msgstr "مصمت"
 
 msgid "Solid color"
-msgstr ""
+msgstr "لون ثابت"
 
 msgid "Something went wrong. Please try again."
 msgstr "حدث خطأ ما. يرجى المحاولة مرة أخرى."
@@ -1074,13 +1074,13 @@ msgid "Source"
 msgstr "المصدر"
 
 msgid "Split Layout"
-msgstr ""
+msgstr "تخطيط مقسّم"
 
 msgid "Split layout on small screens"
-msgstr ""
+msgstr "التخطيط المقسّم على الشاشات الصغيرة"
 
 msgid "Start"
-msgstr ""
+msgstr "البداية"
 
 msgid "Start autoplay"
 msgstr "بدء التشغيل التلقائي"
@@ -1089,19 +1089,19 @@ msgid "Tablet"
 msgstr "الجهاز اللوحي"
 
 msgid "Tablet: alignment"
-msgstr ""
+msgstr "الجهاز اللوحي: المحاذاة"
 
 msgid "Tablet: button text size (px)"
-msgstr ""
+msgstr "الجهاز اللوحي: حجم نص الزر (بكسل)"
 
 msgid "Tablet: content spacing (px)"
-msgstr ""
+msgstr "الجهاز اللوحي: المسافة بين عناصر المحتوى (بكسل)"
 
 msgid "Tablet: description size (px)"
-msgstr ""
+msgstr "الجهاز اللوحي: حجم الوصف (بكسل)"
 
 msgid "Tablet: heading size (px)"
-msgstr ""
+msgstr "الجهاز اللوحي: حجم العنوان (بكسل)"
 
 msgid ""
 "Temporarily switch to a default theme such as Twenty Twenty-Four, or deactivate other plugins one"
@@ -1109,7 +1109,7 @@ msgid ""
 msgstr "بدّل مؤقتًا إلى قالب افتراضي مثل Twenty Twenty-Four، أو عطّل الإضافات الأخرى واحدة تلو الأخرى."
 
 msgid "Text alignment"
-msgstr ""
+msgstr "محاذاة النص"
 
 msgid "Text overlay"
 msgstr "تراكب خلف النص"
@@ -1164,13 +1164,13 @@ msgstr ""
 "المقالات."
 
 msgid "Tip: click text or buttons in the preview to edit them."
-msgstr ""
+msgstr "تلميح: اضغط على النص أو الأزرار في المعاينة لتعديلها."
 
 msgid "Title"
 msgstr "العنوان"
 
 msgid "Top"
-msgstr ""
+msgstr "أعلى"
 
 msgid "Transition"
 msgstr "الانتقال"
@@ -1188,7 +1188,7 @@ msgid "Try a different name or clear the filters."
 msgstr "جرّب اسماً آخر أو أزل عوامل التصفية."
 
 msgid "Type a name and choose Custom or Dynamic."
-msgstr ""
+msgstr "اكتب اسمًا واختر مخصص أو ديناميكي."
 
 msgid "Typography"
 msgstr "الخطوط"
@@ -1200,13 +1200,13 @@ msgid "Unsaved changes"
 msgstr "تغييرات غير محفوظة"
 
 msgid "Untitled slider"
-msgstr ""
+msgstr "سلايدر بلا عنوان"
 
 msgid "Up"
 msgstr "أعلى"
 
 msgid "Updating preview…"
-msgstr ""
+msgstr "جارٍ تحديث المعاينة…"
 
 msgid ""
 "Use the Tablet and Mobile preview and the Responsive tab: raise the mobile height if text is cut "
@@ -1218,13 +1218,13 @@ msgstr ""
 "900 بكسل."
 
 msgid "Use this image"
-msgstr ""
+msgstr "استخدام هذه الصورة"
 
 msgid "Using shortcodes"
 msgstr "استخدام الرموز المختصرة"
 
 msgid "Vertical position"
-msgstr ""
+msgstr "الموضع الرأسي"
 
 msgid "View product"
 msgstr "عرض المنتج"
@@ -1262,7 +1262,7 @@ msgid "WooCommerce"
 msgstr "ووكومرس"
 
 msgid "WooCommerce is not active on this site. Activate it to use products."
-msgstr ""
+msgstr "إضافة WooCommerce غير مفعّلة على هذا الموقع. فعّلها لاستخدام المنتجات."
 
 msgid ""
 "WooCommerce must be installed and active; otherwise the product source shows a notice and no "
@@ -1301,7 +1301,7 @@ msgid "You are not allowed to do that."
 msgstr "غير مسموح لك بتنفيذ هذا الإجراء."
 
 msgid "You are not allowed to preview this slider."
-msgstr ""
+msgstr "ليست لديك صلاحية معاينة هذا السلايدر."
 
 msgid ""
 "You can switch autoplay on or off, set the interval, pause on hover, loop infinitely, and show or"
@@ -1319,7 +1319,7 @@ msgid "You have unsaved changes."
 msgstr "لديك تغييرات غير محفوظة."
 
 msgid "Your headline here"
-msgstr ""
+msgstr "عنوانك هنا"
 
 msgid "Zoom In"
 msgstr "تكبير"
@@ -1476,3 +1476,47 @@ msgstr ""
 msgid "Type a name and choose Custom, Dynamic or Carousel."
 msgstr "أدخل اسمًا واختر سلايدر مخصصًا أو ديناميكيًا أو Carousel."
 
+msgid "Selected WordPress pages"
+msgstr 'صفحات ووردبريس المحددة'
+
+msgid "Choose Selected pages as the content source to build a slider from specific published WordPress pages instead of automatically fetching the latest posts."
+msgstr 'اختر «الصفحات المحددة» مصدرًا للمحتوى لإنشاء سلايدر من صفحات ووردبريس المنشورة التي تحددها بدلًا من جلب أحدث المقالات تلقائيًا.'
+
+msgid "Search pages by title, then tick the pages you want to include. The page picker displays parent and child pages with indentation to reflect the WordPress page hierarchy."
+msgstr 'ابحث عن الصفحات حسب العنوان، ثم حدّد الصفحات التي تريد تضمينها. تعرض قائمة الاختيار الصفحات الرئيسية والفرعية مع إزاحة توضّح التسلسل الهرمي للصفحات في ووردبريس.'
+
+msgid "Use the up and down arrows in the selected-pages list to control the display order. This order is saved with the slider."
+msgstr 'استخدم سهمي الأعلى والأسفل في قائمة الصفحات المحددة للتحكم في ترتيب العرض. يُحفظ هذا الترتيب مع السلايدر.'
+
+msgid "Only published pages are offered. Pages in different languages are separate WordPress pages; select the language-specific page IDs you want to display."
+msgstr 'تُعرض الصفحات المنشورة فقط. تُعامل الصفحات بلغات مختلفة كصفحات منفصلة في ووردبريس؛ حدّد معرّفات الصفحات باللغة التي تريد عرضها.'
+
+msgid "Page titles, featured images, links and text excerpts are taken from the selected pages. The original page content is not modified."
+msgstr 'تُجلب عناوين الصفحات وصورها البارزة وروابطها ومقتطفاتها النصية من الصفحات المحددة، دون تعديل محتوى الصفحات الأصلي.'
+
+msgid "In Layout, set outer padding to add space inside the carousel container. Enable or disable the outer border independently from card borders, and configure each border color and width. Set card corner radius separately."
+msgstr "من تبويب «التخطيط»، حدّد الحشو لإضافة مساحة داخل حاوية السلايدر. يمكنك إظهار الإطار الخارجي أو إخفاؤه بصورة مستقلة عن إطارات البطاقات، وتخصيص لون وسماكة كل إطار. ويمكن ضبط استدارة زوايا البطاقات بشكل منفصل."
+
+msgid "Carousel image shape supports Rectangle, Square (1:1) and Circle. Use Image to text spacing to control the gap between each image and its title or text. Set the gap between cards and the number of visible cards independently for desktop, tablet and mobile."
+msgstr "تدعم أشكال صور الكاروسيل: مستطيل، ومربع بنسبة 1:1، ودائرة. استخدم إعداد المسافة بين الصورة والنص للتحكم في الفراغ بين الصورة والعنوان أو النص. ويمكن ضبط المسافة بين البطاقات وعدد البطاقات الظاهرة بشكل مستقل للحاسوب والجهاز اللوحي والهاتف."
+
+msgid "Selected pages"
+msgstr "الصفحات المحددة"
+
+msgid "Search pages by title"
+msgstr "ابحث عن الصفحات حسب العنوان"
+
+msgid "Select pages and use the arrows to set their display order."
+msgstr "حدّد الصفحات واستخدم الأسهم لتعيين ترتيب عرضها."
+
+msgid "No published pages match your search."
+msgstr "لا توجد صفحات منشورة تطابق بحثك."
+
+msgid "Move up"
+msgstr "نقل إلى الأعلى"
+
+msgid "Move down"
+msgstr "نقل إلى الأسفل"
+
+msgid "Selected pages:"
+msgstr "الصفحات المحددة:"

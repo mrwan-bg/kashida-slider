@@ -134,12 +134,20 @@ final class KS_Schema {
 			'dots'       => self::f( 'animation', __( 'Show pagination dots', 'kashida-slider' ), 'toggle', 1 ),
 			'carousel_layout' => self::f( 'layout', __( 'Carousel layout', 'kashida-slider' ), 'select', 'standard', array( 'choices' => array( 'standard' => __( 'Standard cards', 'kashida-slider' ), 'centered' => __( 'Centered active card', 'kashida-slider' ), 'image' => __( 'Image carousel', 'kashida-slider' ), 'product' => __( 'Product cards', 'kashida-slider' ), 'compact' => __( 'Compact cards', 'kashida-slider' ) ) ) ),
 			'slider_radius' => self::f( 'layout', __( 'Slider container corner radius (px)', 'kashida-slider' ), 'number', 0, array( 'min' => 0, 'max' => 40 ) ),
+			'slider_padding' => self::f( 'layout', __( 'Outer padding (px)', 'kashida-slider' ), 'number', 0, array( 'min' => 0, 'max' => 80 ) ),
+			'slider_border' => self::f( 'layout', __( 'Show outer border', 'kashida-slider' ), 'toggle', 0 ),
+			'slider_border_color' => self::f( 'layout', __( 'Outer border color', 'kashida-slider' ), 'color', '#dddddd' ),
+			'slider_border_width' => self::f( 'layout', __( 'Outer border width (px)', 'kashida-slider' ), 'number', 1, array( 'min' => 0, 'max' => 8 ) ),
 			'carousel_visible_d' => self::f( 'layout', __( 'Carousel columns: desktop', 'kashida-slider' ), 'number', 4, array( 'min' => 1, 'max' => 8 ) ),
 			'carousel_visible_t' => self::f( 'layout', __( 'Carousel columns: tablet', 'kashida-slider' ), 'number', 2, array( 'min' => 1, 'max' => 6 ) ),
 			'carousel_visible_m' => self::f( 'layout', __( 'Carousel columns: mobile', 'kashida-slider' ), 'number', 1, array( 'min' => 1, 'max' => 3 ) ),
 			'carousel_gap' => self::f( 'layout', __( 'Gap between items (px)', 'kashida-slider' ), 'number', 18, array( 'min' => 0, 'max' => 60 ) ),
 			'carousel_card_radius' => self::f( 'layout', __( 'Carousel card corner radius (px)', 'kashida-slider' ), 'number', 10, array( 'min' => 0, 'max' => 80 ) ),
-			'carousel_image_shape' => self::f( 'layout', __( 'Carousel image shape', 'kashida-slider' ), 'select', 'rectangle', array( 'choices' => array( 'rectangle' => __( 'Rectangle', 'kashida-slider' ), 'circle' => __( 'Circle', 'kashida-slider' ) ) ) ),
+			'carousel_card_border' => self::f( 'layout', __( 'Show card borders', 'kashida-slider' ), 'toggle', 1 ),
+			'carousel_card_border_color' => self::f( 'layout', __( 'Card border color', 'kashida-slider' ), 'color', '#e2e4e7' ),
+			'carousel_card_border_width' => self::f( 'layout', __( 'Card border width (px)', 'kashida-slider' ), 'number', 1, array( 'min' => 0, 'max' => 8 ) ),
+			'carousel_image_shape' => self::f( 'layout', __( 'Carousel image shape', 'kashida-slider' ), 'select', 'rectangle', array( 'choices' => array( 'rectangle' => __( 'Rectangle', 'kashida-slider' ), 'square' => __( 'Square', 'kashida-slider' ), 'circle' => __( 'Circle', 'kashida-slider' ) ) ) ),
+			'carousel_image_text_gap' => self::f( 'layout', __( 'Image to text spacing (px)', 'kashida-slider' ), 'number', 8, array( 'min' => 0, 'max' => 60 ) ),
 			'carousel_move' => self::f( 'layout', __( 'Items per navigation', 'kashida-slider' ), 'number', 1, array( 'min' => 1, 'max' => 8 ) ),
 			'h_d'        => self::f( 'responsive', __( 'Slider height: desktop (px)', 'kashida-slider' ), 'number', 560, array( 'min' => 160, 'max' => 1400 ) ),
 			'h_t'        => self::f( 'responsive', __( 'Slider height: tablet (px)', 'kashida-slider' ), 'number', 480, array( 'min' => 160, 'max' => 1400 ) ),
@@ -151,6 +159,7 @@ final class KS_Schema {
 	public static function source_defaults() {
 		return array(
 			'type'          => 'post',
+			'page_ids'      => array(),
 			'post_type'     => '',
 			'count'         => 5,
 			'terms'         => array(),
@@ -233,8 +242,12 @@ final class KS_Schema {
 		$o   = $d;
 
 		$type         = isset( $raw['type'] ) ? $raw['type'] : '';
-		$o['type']    = in_array( $type, array( 'custom', 'post', 'product', 'portfolio' ), true ) ? $type : 'post';
+		$o['type']    = in_array( $type, array( 'custom', 'post', 'pages', 'product', 'portfolio' ), true ) ? $type : 'post';
 		$o['post_type'] = 'portfolio' === $o['type'] && isset( $raw['post_type'] ) ? sanitize_key( $raw['post_type'] ) : '';
+		$o['page_ids'] = array();
+		if ( 'pages' === $o['type'] && ! empty( $raw['page_ids'] ) && is_array( $raw['page_ids'] ) ) {
+			$o['page_ids'] = array_slice( array_values( array_unique( array_filter( array_map( 'absint', $raw['page_ids'] ) ) ) ), 0, 100 );
+		}
 		$o['count']   = isset( $raw['count'] ) ? max( 1, min( 20, (int) $raw['count'] ) ) : $d['count'];
 		$o['order']   = isset( $raw['order'] ) && 'ASC' === strtoupper( (string) $raw['order'] ) ? 'ASC' : 'DESC';
 		$ob           = isset( $raw['orderby'] ) ? $raw['orderby'] : 'date';
