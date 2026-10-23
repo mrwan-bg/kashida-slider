@@ -42,12 +42,14 @@ Usage: `[kashida_slider id="123"]`
 
 == Changelog ==
 
-= Upcoming release =
-* Added a Selected Pages content source with hierarchical page display.
-* Improved dynamic content text cleanup to reduce visible WPBakery shortcodes in post and page excerpts.
-* Added controls for outer padding, outer border visibility and styling, and card border visibility and styling.
+= 1.4.16 =
+* Added the Selected Pages content source with hierarchical page display.
+* Improved post and page text cleanup to reduce visible WPBakery shortcode markup.
+* Added controls for outer padding and outer border visibility, color, and width.
+* Added card border visibility, color, and width controls.
 * Added square carousel image shape and configurable spacing between images and text.
-
+* Expanded Arabic translations for page-selection controls and related interface elements.
+* Improved the WooCommerce price-ordering query to address a potential slow-query warning.
 
 = 1.4.9 =
 * Addressed Plugin Check findings for escaping, translator comments, preview asset loading, AJAX nonce annotations, and text-domain loading.
