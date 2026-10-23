@@ -11,8 +11,17 @@
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![License](https://img.shields.io/badge/License-GPL--2.0%2B-blue)](LICENSE)
 
-[![Download Plugin](https://img.shields.io/badge/⬇%20Download-Plugin%20ZIP-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrwan-bg/kashida-slider/releases)\n\n[🌐 **Kashida Plugin Page**](https://kashida.ly/wp-plugins/kashida-slider/) · [▶ **Live Demo**](https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/)
-
+<p>
+  <a href="https://github.com/mrwan-bg/kashida-slider/releases">
+    <img src="https://img.shields.io/badge/⬇%20Download%20Plugin-Plugin%20ZIP-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Plugin ZIP">
+  </a>
+  <a href="https://kashida.ly/wp-plugins/kashida-slider/">
+    <img src="https://img.shields.io/badge/Kashida-Plugin%20Page-ff6a00?style=for-the-badge" alt="Kashida Plugin Page">
+  </a>
+  <a href="https://kashida.ly/wp-plugins/kashida-slider/kashida-slider-demo/">
+    <img src="https://img.shields.io/badge/▶-Live%20Demo-0969da?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
 ## Overview
 
 Kashida Slider provides a visual editor and a slider library for building responsive sliders and carousels directly in WordPress. Configure layouts, typography, colors, navigation, and device-specific previews without adding external JavaScript libraries.
